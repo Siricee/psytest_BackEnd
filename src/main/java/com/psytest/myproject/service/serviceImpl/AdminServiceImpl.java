@@ -23,9 +23,8 @@ public class AdminServiceImpl implements AdminService {
     @Override
     public int insertSelective(Admin record) {
 
-        admindao.insertSelective(record);
+        return admindao.insertSelective(record);
 //        System.out.println("插入成功");
-        return 1;
     }
 
     @Override
@@ -42,8 +41,7 @@ public class AdminServiceImpl implements AdminService {
 
     @Override
     public int deleteByPrimaryKey(Integer id) {
-        admindao.deleteByPrimaryKey(id);
-        return 1;
+        return admindao.deleteByPrimaryKey(id);
     }
 
 

@@ -79,7 +79,7 @@ User
 
 ### API:
 
-Admin field
+#### Admin field
 
 | function | explain | api | method | Status |
 | :------ | :------ | :------ | :------: |:------: |
@@ -89,10 +89,14 @@ Admin field
 | GetAdminInfo | 获取全部管理人员信息（获取list） | localhost:8080/admin/list | get |  done |
 | DeleteAdmin | 删除某个管理人员 | localhost:8080/admin/delete | get |done |
 
-Analyze Module(admin field)
+#### Analyze Module(admin field)
+分为以下几类：
++ 信度检验
++ 效度检验
++ 卡方检验
++ 数据分类图表显示
 
-
-User field
+#### User field
 
 | function | explain | api | method |Status |
 | :------ | :------ | :------ | :------: |:------: |
@@ -101,10 +105,43 @@ User field
 | isRepeatedName | 是否重名 | localhost:8080/user/isrepeatname | get/post |  done |
 | GetUserInfo | 获取个人信息（获取表单） | localhost:8080/user/get_userinfo | get |done |
 | UpdateUserInfo | 提交修改信息（提交表单） | localhost:8080/user/update_userinfo | post |done |
-| CommitPaper_sas | 提交问卷sas | localhost:8080/user/sas | post |
-| CommitPaper_scl90 | 提交问卷scl90 | localhost:8080/user/scl90 | post |
-| CommitPaper_dass21 | 提交问卷dass21 | localhost:8080/user/dass21 | post |
-| CommitPaper_holander | 提交问卷holander | localhost:8080/user/holander | post |
+| --- | --- | --- | --- | --- |
+| CommitPaper_sas | 提交问卷sas | localhost:8080/sas/commit | post |
+| CommitPaper_scl90 | 提交问卷scl90 | localhost:8080/scl90/commit | post |
+| CommitPaper_dass21 | 提交问卷dass21 | localhost:8080/dass21/commit | post | done |
+| CommitPaper_holander | 提交问卷holander | localhost:8080/holander/commit | post |
+| --- | --- | --- | --- | --- |
+| list_dass21_history | 查看dass21历史记录 | localhost:8080/dass21/history_list | get |done |
+| list_dass21_user_history | 查看个人的dass21历史记录 | localhost:8080/dass21/history_list/user?userid=1 | get |done |
+| delete_dass21_user_history | 删除个人的某项dass21历史记录 | localhost:8080/dass21/history_list/delete?id=1 | get |done |
+| --- | --- | --- | --- | --- |
+| list_sas_history | 查看sas历史记录 | localhost:8080/sas/history_list | get |done |
+| list_sas_user_history | 查看个人的sas历史记录 | localhost:8080/sas/history_list/user?userid=1 | get |done |
+| delete_sas_user_history | 删除个人的某项sas历史记录 | localhost:8080/sas/history_list/delete?id=1 | get |done |
+| --- | --- | --- | --- | --- |
+| list_scl90_history | 查看scl90历史记录 | localhost:8080/scl90/history_list | get |
+| list_scl90_user_history | 查看个人的scl90历史记录 | localhost:8080/scl90/history_list/user?userid=1 | get |
+| delete_scl90_user_history | 删除个人的某项scl90历史记录 | localhost:8080/scl90/history_list/delete?id=1 | get |
 
-CheckResult Module(user field)
 
+#### CheckResult Module(user field)
+
++ 数据分类图表显示
++ 历史记录测量心理状态变化
+
+### DB config
+```yaml
+server:
+  port: 8080
+
+spring:
+    datasource:
+        name: psytest
+        url: jdbc:mysql://localhost:3306/psytest?serverTimezone=GMT%2B8&characterEncoding=utf8
+        username: root
+        password: root
+        driver-class-name: com.mysql.cj.jdbc.Driver
+mybatis:
+  mapper-locations: classpath:mapping/*Mapper.xml
+  type-aliases-package: com.psytest.myproject
+```

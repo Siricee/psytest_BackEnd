@@ -55,6 +55,8 @@ public class UserContrller {
         user.setSex(Integer.parseInt(request.getParameter("sex")));
         user.setWork(request.getParameter("work"));
         user.setLocation(request.getParameter("location"));
+        user.setSalary(Integer.parseInt(request.getParameter("salary")));
+        user.setMarriage(Integer.parseInt(request.getParameter("marriage")));
 
         if (user.getUsername() != null && user.getPassword() != null) {
             return userService.insertSelective(user);
@@ -83,6 +85,9 @@ public class UserContrller {
         user.setSex(Integer.parseInt(request.getParameter("age")));
         user.setWork(request.getParameter("work"));
         user.setLocation(request.getParameter("location"));
+        user.setSalary(Integer.parseInt(request.getParameter("salary")));
+        user.setMarriage(Integer.parseInt(request.getParameter("marriage")));
+
         if (user.getUsername() != null && user.getPassword() != null) {
             return userService.updateByPrimaryKeySelective(user);
         } else return 0;
