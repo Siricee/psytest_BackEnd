@@ -1,0 +1,1678 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.psytest.myproject.dao.Scl90Mapper" >
+  <resultMap id="BaseResultMap" type="com.psytest.myproject.bean.Scl90" >
+    <id column="id" property="id" jdbcType="INTEGER" />
+    <result column="userid" property="userid" jdbcType="INTEGER" />
+    <result column="time" property="time" jdbcType="TIMESTAMP" />
+    <result column="answer1" property="answer1" jdbcType="INTEGER" />
+    <result column="answer2" property="answer2" jdbcType="INTEGER" />
+    <result column="answer3" property="answer3" jdbcType="INTEGER" />
+    <result column="answer4" property="answer4" jdbcType="INTEGER" />
+    <result column="answer5" property="answer5" jdbcType="INTEGER" />
+    <result column="answer6" property="answer6" jdbcType="INTEGER" />
+    <result column="answer7" property="answer7" jdbcType="INTEGER" />
+    <result column="answer8" property="answer8" jdbcType="INTEGER" />
+    <result column="answer9" property="answer9" jdbcType="INTEGER" />
+    <result column="answer10" property="answer10" jdbcType="INTEGER" />
+    <result column="answer11" property="answer11" jdbcType="INTEGER" />
+    <result column="answer12" property="answer12" jdbcType="INTEGER" />
+    <result column="answer13" property="answer13" jdbcType="INTEGER" />
+    <result column="answer14" property="answer14" jdbcType="INTEGER" />
+    <result column="answer15" property="answer15" jdbcType="INTEGER" />
+    <result column="answer16" property="answer16" jdbcType="INTEGER" />
+    <result column="answer17" property="answer17" jdbcType="INTEGER" />
+    <result column="answer18" property="answer18" jdbcType="INTEGER" />
+    <result column="answer19" property="answer19" jdbcType="INTEGER" />
+    <result column="answer20" property="answer20" jdbcType="INTEGER" />
+    <result column="answer21" property="answer21" jdbcType="INTEGER" />
+    <result column="answer22" property="answer22" jdbcType="INTEGER" />
+    <result column="answer23" property="answer23" jdbcType="INTEGER" />
+    <result column="answer24" property="answer24" jdbcType="INTEGER" />
+    <result column="answer25" property="answer25" jdbcType="INTEGER" />
+    <result column="answer26" property="answer26" jdbcType="INTEGER" />
+    <result column="answer27" property="answer27" jdbcType="INTEGER" />
+    <result column="answer28" property="answer28" jdbcType="INTEGER" />
+    <result column="answer29" property="answer29" jdbcType="INTEGER" />
+    <result column="answer30" property="answer30" jdbcType="INTEGER" />
+    <result column="answer31" property="answer31" jdbcType="INTEGER" />
+    <result column="answer32" property="answer32" jdbcType="INTEGER" />
+    <result column="answer33" property="answer33" jdbcType="INTEGER" />
+    <result column="answer34" property="answer34" jdbcType="INTEGER" />
+    <result column="answer35" property="answer35" jdbcType="INTEGER" />
+    <result column="answer36" property="answer36" jdbcType="INTEGER" />
+    <result column="answer37" property="answer37" jdbcType="INTEGER" />
+    <result column="answer38" property="answer38" jdbcType="INTEGER" />
+    <result column="answer39" property="answer39" jdbcType="INTEGER" />
+    <result column="answer40" property="answer40" jdbcType="INTEGER" />
+    <result column="answer41" property="answer41" jdbcType="INTEGER" />
+    <result column="answer42" property="answer42" jdbcType="INTEGER" />
+    <result column="answer43" property="answer43" jdbcType="INTEGER" />
+    <result column="answer44" property="answer44" jdbcType="INTEGER" />
+    <result column="answer45" property="answer45" jdbcType="INTEGER" />
+    <result column="answer46" property="answer46" jdbcType="INTEGER" />
+    <result column="answer47" property="answer47" jdbcType="INTEGER" />
+    <result column="answer48" property="answer48" jdbcType="INTEGER" />
+    <result column="answer49" property="answer49" jdbcType="INTEGER" />
+    <result column="answer50" property="answer50" jdbcType="INTEGER" />
+    <result column="answer51" property="answer51" jdbcType="INTEGER" />
+    <result column="answer52" property="answer52" jdbcType="INTEGER" />
+    <result column="answer53" property="answer53" jdbcType="INTEGER" />
+    <result column="answer54" property="answer54" jdbcType="INTEGER" />
+    <result column="answer55" property="answer55" jdbcType="INTEGER" />
+    <result column="answer56" property="answer56" jdbcType="INTEGER" />
+    <result column="answer57" property="answer57" jdbcType="INTEGER" />
+    <result column="answer58" property="answer58" jdbcType="INTEGER" />
+    <result column="answer59" property="answer59" jdbcType="INTEGER" />
+    <result column="answer60" property="answer60" jdbcType="INTEGER" />
+    <result column="answer61" property="answer61" jdbcType="INTEGER" />
+    <result column="answer62" property="answer62" jdbcType="INTEGER" />
+    <result column="answer63" property="answer63" jdbcType="INTEGER" />
+    <result column="answer64" property="answer64" jdbcType="INTEGER" />
+    <result column="answer65" property="answer65" jdbcType="INTEGER" />
+    <result column="answer66" property="answer66" jdbcType="INTEGER" />
+    <result column="answer67" property="answer67" jdbcType="INTEGER" />
+    <result column="answer68" property="answer68" jdbcType="INTEGER" />
+    <result column="answer69" property="answer69" jdbcType="INTEGER" />
+    <result column="answer70" property="answer70" jdbcType="INTEGER" />
+    <result column="answer71" property="answer71" jdbcType="INTEGER" />
+    <result column="answer72" property="answer72" jdbcType="INTEGER" />
+    <result column="answer73" property="answer73" jdbcType="INTEGER" />
+    <result column="answer74" property="answer74" jdbcType="INTEGER" />
+    <result column="answer75" property="answer75" jdbcType="INTEGER" />
+    <result column="answer76" property="answer76" jdbcType="INTEGER" />
+    <result column="answer77" property="answer77" jdbcType="INTEGER" />
+    <result column="answer78" property="answer78" jdbcType="INTEGER" />
+    <result column="answer79" property="answer79" jdbcType="INTEGER" />
+    <result column="answer80" property="answer80" jdbcType="INTEGER" />
+    <result column="answer81" property="answer81" jdbcType="INTEGER" />
+    <result column="answer82" property="answer82" jdbcType="INTEGER" />
+    <result column="answer83" property="answer83" jdbcType="INTEGER" />
+    <result column="answer84" property="answer84" jdbcType="INTEGER" />
+    <result column="answer85" property="answer85" jdbcType="INTEGER" />
+    <result column="answer86" property="answer86" jdbcType="INTEGER" />
+    <result column="answer87" property="answer87" jdbcType="INTEGER" />
+    <result column="answer88" property="answer88" jdbcType="INTEGER" />
+    <result column="answer89" property="answer89" jdbcType="INTEGER" />
+    <result column="answer90" property="answer90" jdbcType="INTEGER" />
+    <result column="sumscore" property="sumscore" jdbcType="INTEGER" />
+    <result column="average" property="average" jdbcType="REAL" />
+    <result column="pos_symptom" property="posSymptom" jdbcType="INTEGER" />
+    <result column="neg_symptom" property="negSymptom" jdbcType="INTEGER" />
+    <result column="pos_symptom_avg" property="posSymptomAvg" jdbcType="REAL" />
+  </resultMap>
+  <sql id="Example_Where_Clause" >
+    <where >
+      <foreach collection="oredCriteria" item="criteria" separator="or" >
+        <if test="criteria.valid" >
+          <trim prefix="(" suffix=")" prefixOverrides="and" >
+            <foreach collection="criteria.criteria" item="criterion" >
+              <choose >
+                <when test="criterion.noValue" >
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue" >
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue" >
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue" >
+                  and ${criterion.condition}
+                  <foreach collection="criterion.value" item="listItem" open="(" close=")" separator="," >
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Update_By_Example_Where_Clause" >
+    <where >
+      <foreach collection="example.oredCriteria" item="criteria" separator="or" >
+        <if test="criteria.valid" >
+          <trim prefix="(" suffix=")" prefixOverrides="and" >
+            <foreach collection="criteria.criteria" item="criterion" >
+              <choose >
+                <when test="criterion.noValue" >
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue" >
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue" >
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue" >
+                  and ${criterion.condition}
+                  <foreach collection="criterion.value" item="listItem" open="(" close=")" separator="," >
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Base_Column_List" >
+    id, userid, time, answer1, answer2, answer3, answer4, answer5, answer6, answer7, 
+    answer8, answer9, answer10, answer11, answer12, answer13, answer14, answer15, answer16, 
+    answer17, answer18, answer19, answer20, answer21, answer22, answer23, answer24, answer25, 
+    answer26, answer27, answer28, answer29, answer30, answer31, answer32, answer33, answer34, 
+    answer35, answer36, answer37, answer38, answer39, answer40, answer41, answer42, answer43, 
+    answer44, answer45, answer46, answer47, answer48, answer49, answer50, answer51, answer52, 
+    answer53, answer54, answer55, answer56, answer57, answer58, answer59, answer60, answer61, 
+    answer62, answer63, answer64, answer65, answer66, answer67, answer68, answer69, answer70, 
+    answer71, answer72, answer73, answer74, answer75, answer76, answer77, answer78, answer79, 
+    answer80, answer81, answer82, answer83, answer84, answer85, answer86, answer87, answer88, 
+    answer89, answer90, sumscore, average, pos_symptom, neg_symptom, pos_symptom_avg
+  </sql>
+  <select id="selectByExample" resultMap="BaseResultMap" parameterType="com.psytest.myproject.bean.Scl90Example" >
+    select
+    <if test="distinct" >
+      distinct
+    </if>
+    <include refid="Base_Column_List" />
+    from scl90
+    <if test="_parameter != null" >
+      <include refid="Example_Where_Clause" />
+    </if>
+    <if test="orderByClause != null" >
+      order by ${orderByClause}
+    </if>
+  </select>
+  <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.Integer" >
+    select 
+    <include refid="Base_Column_List" />
+    from scl90
+    where id = #{id,jdbcType=INTEGER}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer" >
+    delete from scl90
+    where id = #{id,jdbcType=INTEGER}
+  </delete>
+  <delete id="deleteByExample" parameterType="com.psytest.myproject.bean.Scl90Example" >
+    delete from scl90
+    <if test="_parameter != null" >
+      <include refid="Example_Where_Clause" />
+    </if>
+  </delete>
+  <insert id="insert" parameterType="com.psytest.myproject.bean.Scl90" >
+    insert into scl90 (id, userid, time, 
+      answer1, answer2, answer3, 
+      answer4, answer5, answer6, 
+      answer7, answer8, answer9, 
+      answer10, answer11, answer12, 
+      answer13, answer14, answer15, 
+      answer16, answer17, answer18, 
+      answer19, answer20, answer21, 
+      answer22, answer23, answer24, 
+      answer25, answer26, answer27, 
+      answer28, answer29, answer30, 
+      answer31, answer32, answer33, 
+      answer34, answer35, answer36, 
+      answer37, answer38, answer39, 
+      answer40, answer41, answer42, 
+      answer43, answer44, answer45, 
+      answer46, answer47, answer48, 
+      answer49, answer50, answer51, 
+      answer52, answer53, answer54, 
+      answer55, answer56, answer57, 
+      answer58, answer59, answer60, 
+      answer61, answer62, answer63, 
+      answer64, answer65, answer66, 
+      answer67, answer68, answer69, 
+      answer70, answer71, answer72, 
+      answer73, answer74, answer75, 
+      answer76, answer77, answer78, 
+      answer79, answer80, answer81, 
+      answer82, answer83, answer84, 
+      answer85, answer86, answer87, 
+      answer88, answer89, answer90, 
+      sumscore, average, pos_symptom, 
+      neg_symptom, pos_symptom_avg)
+    values (#{id,jdbcType=INTEGER}, #{userid,jdbcType=INTEGER}, #{time,jdbcType=TIMESTAMP}, 
+      #{answer1,jdbcType=INTEGER}, #{answer2,jdbcType=INTEGER}, #{answer3,jdbcType=INTEGER}, 
+      #{answer4,jdbcType=INTEGER}, #{answer5,jdbcType=INTEGER}, #{answer6,jdbcType=INTEGER}, 
+      #{answer7,jdbcType=INTEGER}, #{answer8,jdbcType=INTEGER}, #{answer9,jdbcType=INTEGER}, 
+      #{answer10,jdbcType=INTEGER}, #{answer11,jdbcType=INTEGER}, #{answer12,jdbcType=INTEGER}, 
+      #{answer13,jdbcType=INTEGER}, #{answer14,jdbcType=INTEGER}, #{answer15,jdbcType=INTEGER}, 
+      #{answer16,jdbcType=INTEGER}, #{answer17,jdbcType=INTEGER}, #{answer18,jdbcType=INTEGER}, 
+      #{answer19,jdbcType=INTEGER}, #{answer20,jdbcType=INTEGER}, #{answer21,jdbcType=INTEGER}, 
+      #{answer22,jdbcType=INTEGER}, #{answer23,jdbcType=INTEGER}, #{answer24,jdbcType=INTEGER}, 
+      #{answer25,jdbcType=INTEGER}, #{answer26,jdbcType=INTEGER}, #{answer27,jdbcType=INTEGER}, 
+      #{answer28,jdbcType=INTEGER}, #{answer29,jdbcType=INTEGER}, #{answer30,jdbcType=INTEGER}, 
+      #{answer31,jdbcType=INTEGER}, #{answer32,jdbcType=INTEGER}, #{answer33,jdbcType=INTEGER}, 
+      #{answer34,jdbcType=INTEGER}, #{answer35,jdbcType=INTEGER}, #{answer36,jdbcType=INTEGER}, 
+      #{answer37,jdbcType=INTEGER}, #{answer38,jdbcType=INTEGER}, #{answer39,jdbcType=INTEGER}, 
+      #{answer40,jdbcType=INTEGER}, #{answer41,jdbcType=INTEGER}, #{answer42,jdbcType=INTEGER}, 
+      #{answer43,jdbcType=INTEGER}, #{answer44,jdbcType=INTEGER}, #{answer45,jdbcType=INTEGER}, 
+      #{answer46,jdbcType=INTEGER}, #{answer47,jdbcType=INTEGER}, #{answer48,jdbcType=INTEGER}, 
+      #{answer49,jdbcType=INTEGER}, #{answer50,jdbcType=INTEGER}, #{answer51,jdbcType=INTEGER}, 
+      #{answer52,jdbcType=INTEGER}, #{answer53,jdbcType=INTEGER}, #{answer54,jdbcType=INTEGER}, 
+      #{answer55,jdbcType=INTEGER}, #{answer56,jdbcType=INTEGER}, #{answer57,jdbcType=INTEGER}, 
+      #{answer58,jdbcType=INTEGER}, #{answer59,jdbcType=INTEGER}, #{answer60,jdbcType=INTEGER}, 
+      #{answer61,jdbcType=INTEGER}, #{answer62,jdbcType=INTEGER}, #{answer63,jdbcType=INTEGER}, 
+      #{answer64,jdbcType=INTEGER}, #{answer65,jdbcType=INTEGER}, #{answer66,jdbcType=INTEGER}, 
+      #{answer67,jdbcType=INTEGER}, #{answer68,jdbcType=INTEGER}, #{answer69,jdbcType=INTEGER}, 
+      #{answer70,jdbcType=INTEGER}, #{answer71,jdbcType=INTEGER}, #{answer72,jdbcType=INTEGER}, 
+      #{answer73,jdbcType=INTEGER}, #{answer74,jdbcType=INTEGER}, #{answer75,jdbcType=INTEGER}, 
+      #{answer76,jdbcType=INTEGER}, #{answer77,jdbcType=INTEGER}, #{answer78,jdbcType=INTEGER}, 
+      #{answer79,jdbcType=INTEGER}, #{answer80,jdbcType=INTEGER}, #{answer81,jdbcType=INTEGER}, 
+      #{answer82,jdbcType=INTEGER}, #{answer83,jdbcType=INTEGER}, #{answer84,jdbcType=INTEGER}, 
+      #{answer85,jdbcType=INTEGER}, #{answer86,jdbcType=INTEGER}, #{answer87,jdbcType=INTEGER}, 
+      #{answer88,jdbcType=INTEGER}, #{answer89,jdbcType=INTEGER}, #{answer90,jdbcType=INTEGER}, 
+      #{sumscore,jdbcType=INTEGER}, #{average,jdbcType=REAL}, #{posSymptom,jdbcType=INTEGER}, 
+      #{negSymptom,jdbcType=INTEGER}, #{posSymptomAvg,jdbcType=REAL})
+  </insert>
+  <insert id="insertSelective" parameterType="com.psytest.myproject.bean.Scl90" >
+    insert into scl90
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="id != null" >
+        id,
+      </if>
+      <if test="userid != null" >
+        userid,
+      </if>
+      <if test="time != null" >
+        time,
+      </if>
+      <if test="answer1 != null" >
+        answer1,
+      </if>
+      <if test="answer2 != null" >
+        answer2,
+      </if>
+      <if test="answer3 != null" >
+        answer3,
+      </if>
+      <if test="answer4 != null" >
+        answer4,
+      </if>
+      <if test="answer5 != null" >
+        answer5,
+      </if>
+      <if test="answer6 != null" >
+        answer6,
+      </if>
+      <if test="answer7 != null" >
+        answer7,
+      </if>
+      <if test="answer8 != null" >
+        answer8,
+      </if>
+      <if test="answer9 != null" >
+        answer9,
+      </if>
+      <if test="answer10 != null" >
+        answer10,
+      </if>
+      <if test="answer11 != null" >
+        answer11,
+      </if>
+      <if test="answer12 != null" >
+        answer12,
+      </if>
+      <if test="answer13 != null" >
+        answer13,
+      </if>
+      <if test="answer14 != null" >
+        answer14,
+      </if>
+      <if test="answer15 != null" >
+        answer15,
+      </if>
+      <if test="answer16 != null" >
+        answer16,
+      </if>
+      <if test="answer17 != null" >
+        answer17,
+      </if>
+      <if test="answer18 != null" >
+        answer18,
+      </if>
+      <if test="answer19 != null" >
+        answer19,
+      </if>
+      <if test="answer20 != null" >
+        answer20,
+      </if>
+      <if test="answer21 != null" >
+        answer21,
+      </if>
+      <if test="answer22 != null" >
+        answer22,
+      </if>
+      <if test="answer23 != null" >
+        answer23,
+      </if>
+      <if test="answer24 != null" >
+        answer24,
+      </if>
+      <if test="answer25 != null" >
+        answer25,
+      </if>
+      <if test="answer26 != null" >
+        answer26,
+      </if>
+      <if test="answer27 != null" >
+        answer27,
+      </if>
+      <if test="answer28 != null" >
+        answer28,
+      </if>
+      <if test="answer29 != null" >
+        answer29,
+      </if>
+      <if test="answer30 != null" >
+        answer30,
+      </if>
+      <if test="answer31 != null" >
+        answer31,
+      </if>
+      <if test="answer32 != null" >
+        answer32,
+      </if>
+      <if test="answer33 != null" >
+        answer33,
+      </if>
+      <if test="answer34 != null" >
+        answer34,
+      </if>
+      <if test="answer35 != null" >
+        answer35,
+      </if>
+      <if test="answer36 != null" >
+        answer36,
+      </if>
+      <if test="answer37 != null" >
+        answer37,
+      </if>
+      <if test="answer38 != null" >
+        answer38,
+      </if>
+      <if test="answer39 != null" >
+        answer39,
+      </if>
+      <if test="answer40 != null" >
+        answer40,
+      </if>
+      <if test="answer41 != null" >
+        answer41,
+      </if>
+      <if test="answer42 != null" >
+        answer42,
+      </if>
+      <if test="answer43 != null" >
+        answer43,
+      </if>
+      <if test="answer44 != null" >
+        answer44,
+      </if>
+      <if test="answer45 != null" >
+        answer45,
+      </if>
+      <if test="answer46 != null" >
+        answer46,
+      </if>
+      <if test="answer47 != null" >
+        answer47,
+      </if>
+      <if test="answer48 != null" >
+        answer48,
+      </if>
+      <if test="answer49 != null" >
+        answer49,
+      </if>
+      <if test="answer50 != null" >
+        answer50,
+      </if>
+      <if test="answer51 != null" >
+        answer51,
+      </if>
+      <if test="answer52 != null" >
+        answer52,
+      </if>
+      <if test="answer53 != null" >
+        answer53,
+      </if>
+      <if test="answer54 != null" >
+        answer54,
+      </if>
+      <if test="answer55 != null" >
+        answer55,
+      </if>
+      <if test="answer56 != null" >
+        answer56,
+      </if>
+      <if test="answer57 != null" >
+        answer57,
+      </if>
+      <if test="answer58 != null" >
+        answer58,
+      </if>
+      <if test="answer59 != null" >
+        answer59,
+      </if>
+      <if test="answer60 != null" >
+        answer60,
+      </if>
+      <if test="answer61 != null" >
+        answer61,
+      </if>
+      <if test="answer62 != null" >
+        answer62,
+      </if>
+      <if test="answer63 != null" >
+        answer63,
+      </if>
+      <if test="answer64 != null" >
+        answer64,
+      </if>
+      <if test="answer65 != null" >
+        answer65,
+      </if>
+      <if test="answer66 != null" >
+        answer66,
+      </if>
+      <if test="answer67 != null" >
+        answer67,
+      </if>
+      <if test="answer68 != null" >
+        answer68,
+      </if>
+      <if test="answer69 != null" >
+        answer69,
+      </if>
+      <if test="answer70 != null" >
+        answer70,
+      </if>
+      <if test="answer71 != null" >
+        answer71,
+      </if>
+      <if test="answer72 != null" >
+        answer72,
+      </if>
+      <if test="answer73 != null" >
+        answer73,
+      </if>
+      <if test="answer74 != null" >
+        answer74,
+      </if>
+      <if test="answer75 != null" >
+        answer75,
+      </if>
+      <if test="answer76 != null" >
+        answer76,
+      </if>
+      <if test="answer77 != null" >
+        answer77,
+      </if>
+      <if test="answer78 != null" >
+        answer78,
+      </if>
+      <if test="answer79 != null" >
+        answer79,
+      </if>
+      <if test="answer80 != null" >
+        answer80,
+      </if>
+      <if test="answer81 != null" >
+        answer81,
+      </if>
+      <if test="answer82 != null" >
+        answer82,
+      </if>
+      <if test="answer83 != null" >
+        answer83,
+      </if>
+      <if test="answer84 != null" >
+        answer84,
+      </if>
+      <if test="answer85 != null" >
+        answer85,
+      </if>
+      <if test="answer86 != null" >
+        answer86,
+      </if>
+      <if test="answer87 != null" >
+        answer87,
+      </if>
+      <if test="answer88 != null" >
+        answer88,
+      </if>
+      <if test="answer89 != null" >
+        answer89,
+      </if>
+      <if test="answer90 != null" >
+        answer90,
+      </if>
+      <if test="sumscore != null" >
+        sumscore,
+      </if>
+      <if test="average != null" >
+        average,
+      </if>
+      <if test="posSymptom != null" >
+        pos_symptom,
+      </if>
+      <if test="negSymptom != null" >
+        neg_symptom,
+      </if>
+      <if test="posSymptomAvg != null" >
+        pos_symptom_avg,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="id != null" >
+        #{id,jdbcType=INTEGER},
+      </if>
+      <if test="userid != null" >
+        #{userid,jdbcType=INTEGER},
+      </if>
+      <if test="time != null" >
+        #{time,jdbcType=TIMESTAMP},
+      </if>
+      <if test="answer1 != null" >
+        #{answer1,jdbcType=INTEGER},
+      </if>
+      <if test="answer2 != null" >
+        #{answer2,jdbcType=INTEGER},
+      </if>
+      <if test="answer3 != null" >
+        #{answer3,jdbcType=INTEGER},
+      </if>
+      <if test="answer4 != null" >
+        #{answer4,jdbcType=INTEGER},
+      </if>
+      <if test="answer5 != null" >
+        #{answer5,jdbcType=INTEGER},
+      </if>
+      <if test="answer6 != null" >
+        #{answer6,jdbcType=INTEGER},
+      </if>
+      <if test="answer7 != null" >
+        #{answer7,jdbcType=INTEGER},
+      </if>
+      <if test="answer8 != null" >
+        #{answer8,jdbcType=INTEGER},
+      </if>
+      <if test="answer9 != null" >
+        #{answer9,jdbcType=INTEGER},
+      </if>
+      <if test="answer10 != null" >
+        #{answer10,jdbcType=INTEGER},
+      </if>
+      <if test="answer11 != null" >
+        #{answer11,jdbcType=INTEGER},
+      </if>
+      <if test="answer12 != null" >
+        #{answer12,jdbcType=INTEGER},
+      </if>
+      <if test="answer13 != null" >
+        #{answer13,jdbcType=INTEGER},
+      </if>
+      <if test="answer14 != null" >
+        #{answer14,jdbcType=INTEGER},
+      </if>
+      <if test="answer15 != null" >
+        #{answer15,jdbcType=INTEGER},
+      </if>
+      <if test="answer16 != null" >
+        #{answer16,jdbcType=INTEGER},
+      </if>
+      <if test="answer17 != null" >
+        #{answer17,jdbcType=INTEGER},
+      </if>
+      <if test="answer18 != null" >
+        #{answer18,jdbcType=INTEGER},
+      </if>
+      <if test="answer19 != null" >
+        #{answer19,jdbcType=INTEGER},
+      </if>
+      <if test="answer20 != null" >
+        #{answer20,jdbcType=INTEGER},
+      </if>
+      <if test="answer21 != null" >
+        #{answer21,jdbcType=INTEGER},
+      </if>
+      <if test="answer22 != null" >
+        #{answer22,jdbcType=INTEGER},
+      </if>
+      <if test="answer23 != null" >
+        #{answer23,jdbcType=INTEGER},
+      </if>
+      <if test="answer24 != null" >
+        #{answer24,jdbcType=INTEGER},
+      </if>
+      <if test="answer25 != null" >
+        #{answer25,jdbcType=INTEGER},
+      </if>
+      <if test="answer26 != null" >
+        #{answer26,jdbcType=INTEGER},
+      </if>
+      <if test="answer27 != null" >
+        #{answer27,jdbcType=INTEGER},
+      </if>
+      <if test="answer28 != null" >
+        #{answer28,jdbcType=INTEGER},
+      </if>
+      <if test="answer29 != null" >
+        #{answer29,jdbcType=INTEGER},
+      </if>
+      <if test="answer30 != null" >
+        #{answer30,jdbcType=INTEGER},
+      </if>
+      <if test="answer31 != null" >
+        #{answer31,jdbcType=INTEGER},
+      </if>
+      <if test="answer32 != null" >
+        #{answer32,jdbcType=INTEGER},
+      </if>
+      <if test="answer33 != null" >
+        #{answer33,jdbcType=INTEGER},
+      </if>
+      <if test="answer34 != null" >
+        #{answer34,jdbcType=INTEGER},
+      </if>
+      <if test="answer35 != null" >
+        #{answer35,jdbcType=INTEGER},
+      </if>
+      <if test="answer36 != null" >
+        #{answer36,jdbcType=INTEGER},
+      </if>
+      <if test="answer37 != null" >
+        #{answer37,jdbcType=INTEGER},
+      </if>
+      <if test="answer38 != null" >
+        #{answer38,jdbcType=INTEGER},
+      </if>
+      <if test="answer39 != null" >
+        #{answer39,jdbcType=INTEGER},
+      </if>
+      <if test="answer40 != null" >
+        #{answer40,jdbcType=INTEGER},
+      </if>
+      <if test="answer41 != null" >
+        #{answer41,jdbcType=INTEGER},
+      </if>
+      <if test="answer42 != null" >
+        #{answer42,jdbcType=INTEGER},
+      </if>
+      <if test="answer43 != null" >
+        #{answer43,jdbcType=INTEGER},
+      </if>
+      <if test="answer44 != null" >
+        #{answer44,jdbcType=INTEGER},
+      </if>
+      <if test="answer45 != null" >
+        #{answer45,jdbcType=INTEGER},
+      </if>
+      <if test="answer46 != null" >
+        #{answer46,jdbcType=INTEGER},
+      </if>
+      <if test="answer47 != null" >
+        #{answer47,jdbcType=INTEGER},
+      </if>
+      <if test="answer48 != null" >
+        #{answer48,jdbcType=INTEGER},
+      </if>
+      <if test="answer49 != null" >
+        #{answer49,jdbcType=INTEGER},
+      </if>
+      <if test="answer50 != null" >
+        #{answer50,jdbcType=INTEGER},
+      </if>
+      <if test="answer51 != null" >
+        #{answer51,jdbcType=INTEGER},
+      </if>
+      <if test="answer52 != null" >
+        #{answer52,jdbcType=INTEGER},
+      </if>
+      <if test="answer53 != null" >
+        #{answer53,jdbcType=INTEGER},
+      </if>
+      <if test="answer54 != null" >
+        #{answer54,jdbcType=INTEGER},
+      </if>
+      <if test="answer55 != null" >
+        #{answer55,jdbcType=INTEGER},
+      </if>
+      <if test="answer56 != null" >
+        #{answer56,jdbcType=INTEGER},
+      </if>
+      <if test="answer57 != null" >
+        #{answer57,jdbcType=INTEGER},
+      </if>
+      <if test="answer58 != null" >
+        #{answer58,jdbcType=INTEGER},
+      </if>
+      <if test="answer59 != null" >
+        #{answer59,jdbcType=INTEGER},
+      </if>
+      <if test="answer60 != null" >
+        #{answer60,jdbcType=INTEGER},
+      </if>
+      <if test="answer61 != null" >
+        #{answer61,jdbcType=INTEGER},
+      </if>
+      <if test="answer62 != null" >
+        #{answer62,jdbcType=INTEGER},
+      </if>
+      <if test="answer63 != null" >
+        #{answer63,jdbcType=INTEGER},
+      </if>
+      <if test="answer64 != null" >
+        #{answer64,jdbcType=INTEGER},
+      </if>
+      <if test="answer65 != null" >
+        #{answer65,jdbcType=INTEGER},
+      </if>
+      <if test="answer66 != null" >
+        #{answer66,jdbcType=INTEGER},
+      </if>
+      <if test="answer67 != null" >
+        #{answer67,jdbcType=INTEGER},
+      </if>
+      <if test="answer68 != null" >
+        #{answer68,jdbcType=INTEGER},
+      </if>
+      <if test="answer69 != null" >
+        #{answer69,jdbcType=INTEGER},
+      </if>
+      <if test="answer70 != null" >
+        #{answer70,jdbcType=INTEGER},
+      </if>
+      <if test="answer71 != null" >
+        #{answer71,jdbcType=INTEGER},
+      </if>
+      <if test="answer72 != null" >
+        #{answer72,jdbcType=INTEGER},
+      </if>
+      <if test="answer73 != null" >
+        #{answer73,jdbcType=INTEGER},
+      </if>
+      <if test="answer74 != null" >
+        #{answer74,jdbcType=INTEGER},
+      </if>
+      <if test="answer75 != null" >
+        #{answer75,jdbcType=INTEGER},
+      </if>
+      <if test="answer76 != null" >
+        #{answer76,jdbcType=INTEGER},
+      </if>
+      <if test="answer77 != null" >
+        #{answer77,jdbcType=INTEGER},
+      </if>
+      <if test="answer78 != null" >
+        #{answer78,jdbcType=INTEGER},
+      </if>
+      <if test="answer79 != null" >
+        #{answer79,jdbcType=INTEGER},
+      </if>
+      <if test="answer80 != null" >
+        #{answer80,jdbcType=INTEGER},
+      </if>
+      <if test="answer81 != null" >
+        #{answer81,jdbcType=INTEGER},
+      </if>
+      <if test="answer82 != null" >
+        #{answer82,jdbcType=INTEGER},
+      </if>
+      <if test="answer83 != null" >
+        #{answer83,jdbcType=INTEGER},
+      </if>
+      <if test="answer84 != null" >
+        #{answer84,jdbcType=INTEGER},
+      </if>
+      <if test="answer85 != null" >
+        #{answer85,jdbcType=INTEGER},
+      </if>
+      <if test="answer86 != null" >
+        #{answer86,jdbcType=INTEGER},
+      </if>
+      <if test="answer87 != null" >
+        #{answer87,jdbcType=INTEGER},
+      </if>
+      <if test="answer88 != null" >
+        #{answer88,jdbcType=INTEGER},
+      </if>
+      <if test="answer89 != null" >
+        #{answer89,jdbcType=INTEGER},
+      </if>
+      <if test="answer90 != null" >
+        #{answer90,jdbcType=INTEGER},
+      </if>
+      <if test="sumscore != null" >
+        #{sumscore,jdbcType=INTEGER},
+      </if>
+      <if test="average != null" >
+        #{average,jdbcType=REAL},
+      </if>
+      <if test="posSymptom != null" >
+        #{posSymptom,jdbcType=INTEGER},
+      </if>
+      <if test="negSymptom != null" >
+        #{negSymptom,jdbcType=INTEGER},
+      </if>
+      <if test="posSymptomAvg != null" >
+        #{posSymptomAvg,jdbcType=REAL},
+      </if>
+    </trim>
+  </insert>
+  <select id="countByExample" parameterType="com.psytest.myproject.bean.Scl90Example" resultType="java.lang.Integer" >
+    select count(*) from scl90
+    <if test="_parameter != null" >
+      <include refid="Example_Where_Clause" />
+    </if>
+  </select>
+  <update id="updateByExampleSelective" parameterType="map" >
+    update scl90
+    <set >
+      <if test="record.id != null" >
+        id = #{record.id,jdbcType=INTEGER},
+      </if>
+      <if test="record.userid != null" >
+        userid = #{record.userid,jdbcType=INTEGER},
+      </if>
+      <if test="record.time != null" >
+        time = #{record.time,jdbcType=TIMESTAMP},
+      </if>
+      <if test="record.answer1 != null" >
+        answer1 = #{record.answer1,jdbcType=INTEGER},
+      </if>
+      <if test="record.answer2 != null" >
+        answer2 = #{record.answer2,jdbcType=INTEGER},
+      </if>
+      <if test="record.answer3 != null" >
+        answer3 = #{record.answer3,jdbcType=INTEGER},
+      </if>
+      <if test="record.answer4 != null" >
+        answer4 = #{record.answer4,jdbcType=INTEGER},
+      </if>
+      <if test="record.answer5 != null" >
+        answer5 = #{record.answer5,jdbcType=INTEGER},
+      </if>
+      <if test="record.answer6 != null" >
+        answer6 = #{record.answer6,jdbcType=INTEGER},
+      </if>
+      <if test="record.answer7 != null" >
+        answer7 = #{record.answer7,jdbcType=INTEGER},
+      </if>
+      <if test="record.answer8 != null" >
+        answer8 = #{record.answer8,jdbcType=INTEGER},
+      </if>
+      <if test="record.answer9 != null" >
+        answer9 = #{record.answer9,jdbcType=INTEGER},
+      </if>
+      <if test="record.answer10 != null" >
+        answer10 = #{record.answer10,jdbcType=INTEGER},
+      </if>
+      <if test="record.answer11 != null" >
+        answer11 = #{record.answer11,jdbcType=INTEGER},
+      </if>
+      <if test="record.answer12 != null" >
+        answer12 = #{record.answer12,jdbcType=INTEGER},
+      </if>
+      <if test="record.answer13 != null" >
+        answer13 = #{record.answer13,jdbcType=INTEGER},
+      </if>
+      <if test="record.answer14 != null" >
+        answer14 = #{record.answer14,jdbcType=INTEGER},
+      </if>
+      <if test="record.answer15 != null" >
+        answer15 = #{record.answer15,jdbcType=INTEGER},
+      </if>
+      <if test="record.answer16 != null" >
+        answer16 = #{record.answer16,jdbcType=INTEGER},
+      </if>
+      <if test="record.answer17 != null" >
+        answer17 = #{record.answer17,jdbcType=INTEGER},
+      </if>
+      <if test="record.answer18 != null" >
+        answer18 = #{record.answer18,jdbcType=INTEGER},
+      </if>
+      <if test="record.answer19 != null" >
+        answer19 = #{record.answer19,jdbcType=INTEGER},
+      </if>
+      <if test="record.answer20 != null" >
+        answer20 = #{record.answer20,jdbcType=INTEGER},
+      </if>
+      <if test="record.answer21 != null" >
+        answer21 = #{record.answer21,jdbcType=INTEGER},
+      </if>
+      <if test="record.answer22 != null" >
+        answer22 = #{record.answer22,jdbcType=INTEGER},
+      </if>
+      <if test="record.answer23 != null" >
+        answer23 = #{record.answer23,jdbcType=INTEGER},
+      </if>
+      <if test="record.answer24 != null" >
+        answer24 = #{record.answer24,jdbcType=INTEGER},
+      </if>
+      <if test="record.answer25 != null" >
+        answer25 = #{record.answer25,jdbcType=INTEGER},
+      </if>
+      <if test="record.answer26 != null" >
+        answer26 = #{record.answer26,jdbcType=INTEGER},
+      </if>
+      <if test="record.answer27 != null" >
+        answer27 = #{record.answer27,jdbcType=INTEGER},
+      </if>
+      <if test="record.answer28 != null" >
+        answer28 = #{record.answer28,jdbcType=INTEGER},
+      </if>
+      <if test="record.answer29 != null" >
+        answer29 = #{record.answer29,jdbcType=INTEGER},
+      </if>
+      <if test="record.answer30 != null" >
+        answer30 = #{record.answer30,jdbcType=INTEGER},
+      </if>
+      <if test="record.answer31 != null" >
+        answer31 = #{record.answer31,jdbcType=INTEGER},
+      </if>
+      <if test="record.answer32 != null" >
+        answer32 = #{record.answer32,jdbcType=INTEGER},
+      </if>
+      <if test="record.answer33 != null" >
+        answer33 = #{record.answer33,jdbcType=INTEGER},
+      </if>
+      <if test="record.answer34 != null" >
+        answer34 = #{record.answer34,jdbcType=INTEGER},
+      </if>
+      <if test="record.answer35 != null" >
+        answer35 = #{record.answer35,jdbcType=INTEGER},
+      </if>
+      <if test="record.answer36 != null" >
+        answer36 = #{record.answer36,jdbcType=INTEGER},
+      </if>
+      <if test="record.answer37 != null" >
+        answer37 = #{record.answer37,jdbcType=INTEGER},
+      </if>
+      <if test="record.answer38 != null" >
+        answer38 = #{record.answer38,jdbcType=INTEGER},
+      </if>
+      <if test="record.answer39 != null" >
+        answer39 = #{record.answer39,jdbcType=INTEGER},
+      </if>
+      <if test="record.answer40 != null" >
+        answer40 = #{record.answer40,jdbcType=INTEGER},
+      </if>
+      <if test="record.answer41 != null" >
+        answer41 = #{record.answer41,jdbcType=INTEGER},
+      </if>
+      <if test="record.answer42 != null" >
+        answer42 = #{record.answer42,jdbcType=INTEGER},
+      </if>
+      <if test="record.answer43 != null" >
+        answer43 = #{record.answer43,jdbcType=INTEGER},
+      </if>
+      <if test="record.answer44 != null" >
+        answer44 = #{record.answer44,jdbcType=INTEGER},
+      </if>
+      <if test="record.answer45 != null" >
+        answer45 = #{record.answer45,jdbcType=INTEGER},
+      </if>
+      <if test="record.answer46 != null" >
+        answer46 = #{record.answer46,jdbcType=INTEGER},
+      </if>
+      <if test="record.answer47 != null" >
+        answer47 = #{record.answer47,jdbcType=INTEGER},
+      </if>
+      <if test="record.answer48 != null" >
+        answer48 = #{record.answer48,jdbcType=INTEGER},
+      </if>
+      <if test="record.answer49 != null" >
+        answer49 = #{record.answer49,jdbcType=INTEGER},
+      </if>
+      <if test="record.answer50 != null" >
+        answer50 = #{record.answer50,jdbcType=INTEGER},
+      </if>
+      <if test="record.answer51 != null" >
+        answer51 = #{record.answer51,jdbcType=INTEGER},
+      </if>
+      <if test="record.answer52 != null" >
+        answer52 = #{record.answer52,jdbcType=INTEGER},
+      </if>
+      <if test="record.answer53 != null" >
+        answer53 = #{record.answer53,jdbcType=INTEGER},
+      </if>
+      <if test="record.answer54 != null" >
+        answer54 = #{record.answer54,jdbcType=INTEGER},
+      </if>
+      <if test="record.answer55 != null" >
+        answer55 = #{record.answer55,jdbcType=INTEGER},
+      </if>
+      <if test="record.answer56 != null" >
+        answer56 = #{record.answer56,jdbcType=INTEGER},
+      </if>
+      <if test="record.answer57 != null" >
+        answer57 = #{record.answer57,jdbcType=INTEGER},
+      </if>
+      <if test="record.answer58 != null" >
+        answer58 = #{record.answer58,jdbcType=INTEGER},
+      </if>
+      <if test="record.answer59 != null" >
+        answer59 = #{record.answer59,jdbcType=INTEGER},
+      </if>
+      <if test="record.answer60 != null" >
+        answer60 = #{record.answer60,jdbcType=INTEGER},
+      </if>
+      <if test="record.answer61 != null" >
+        answer61 = #{record.answer61,jdbcType=INTEGER},
+      </if>
+      <if test="record.answer62 != null" >
+        answer62 = #{record.answer62,jdbcType=INTEGER},
+      </if>
+      <if test="record.answer63 != null" >
+        answer63 = #{record.answer63,jdbcType=INTEGER},
+      </if>
+      <if test="record.answer64 != null" >
+        answer64 = #{record.answer64,jdbcType=INTEGER},
+      </if>
+      <if test="record.answer65 != null" >
+        answer65 = #{record.answer65,jdbcType=INTEGER},
+      </if>
+      <if test="record.answer66 != null" >
+        answer66 = #{record.answer66,jdbcType=INTEGER},
+      </if>
+      <if test="record.answer67 != null" >
+        answer67 = #{record.answer67,jdbcType=INTEGER},
+      </if>
+      <if test="record.answer68 != null" >
+        answer68 = #{record.answer68,jdbcType=INTEGER},
+      </if>
+      <if test="record.answer69 != null" >
+        answer69 = #{record.answer69,jdbcType=INTEGER},
+      </if>
+      <if test="record.answer70 != null" >
+        answer70 = #{record.answer70,jdbcType=INTEGER},
+      </if>
+      <if test="record.answer71 != null" >
+        answer71 = #{record.answer71,jdbcType=INTEGER},
+      </if>
+      <if test="record.answer72 != null" >
+        answer72 = #{record.answer72,jdbcType=INTEGER},
+      </if>
+      <if test="record.answer73 != null" >
+        answer73 = #{record.answer73,jdbcType=INTEGER},
+      </if>
+      <if test="record.answer74 != null" >
+        answer74 = #{record.answer74,jdbcType=INTEGER},
+      </if>
+      <if test="record.answer75 != null" >
+        answer75 = #{record.answer75,jdbcType=INTEGER},
+      </if>
+      <if test="record.answer76 != null" >
+        answer76 = #{record.answer76,jdbcType=INTEGER},
+      </if>
+      <if test="record.answer77 != null" >
+        answer77 = #{record.answer77,jdbcType=INTEGER},
+      </if>
+      <if test="record.answer78 != null" >
+        answer78 = #{record.answer78,jdbcType=INTEGER},
+      </if>
+      <if test="record.answer79 != null" >
+        answer79 = #{record.answer79,jdbcType=INTEGER},
+      </if>
+      <if test="record.answer80 != null" >
+        answer80 = #{record.answer80,jdbcType=INTEGER},
+      </if>
+      <if test="record.answer81 != null" >
+        answer81 = #{record.answer81,jdbcType=INTEGER},
+      </if>
+      <if test="record.answer82 != null" >
+        answer82 = #{record.answer82,jdbcType=INTEGER},
+      </if>
+      <if test="record.answer83 != null" >
+        answer83 = #{record.answer83,jdbcType=INTEGER},
+      </if>
+      <if test="record.answer84 != null" >
+        answer84 = #{record.answer84,jdbcType=INTEGER},
+      </if>
+      <if test="record.answer85 != null" >
+        answer85 = #{record.answer85,jdbcType=INTEGER},
+      </if>
+      <if test="record.answer86 != null" >
+        answer86 = #{record.answer86,jdbcType=INTEGER},
+      </if>
+      <if test="record.answer87 != null" >
+        answer87 = #{record.answer87,jdbcType=INTEGER},
+      </if>
+      <if test="record.answer88 != null" >
+        answer88 = #{record.answer88,jdbcType=INTEGER},
+      </if>
+      <if test="record.answer89 != null" >
+        answer89 = #{record.answer89,jdbcType=INTEGER},
+      </if>
+      <if test="record.answer90 != null" >
+        answer90 = #{record.answer90,jdbcType=INTEGER},
+      </if>
+      <if test="record.sumscore != null" >
+        sumscore = #{record.sumscore,jdbcType=INTEGER},
+      </if>
+      <if test="record.average != null" >
+        average = #{record.average,jdbcType=REAL},
+      </if>
+      <if test="record.posSymptom != null" >
+        pos_symptom = #{record.posSymptom,jdbcType=INTEGER},
+      </if>
+      <if test="record.negSymptom != null" >
+        neg_symptom = #{record.negSymptom,jdbcType=INTEGER},
+      </if>
+      <if test="record.posSymptomAvg != null" >
+        pos_symptom_avg = #{record.posSymptomAvg,jdbcType=REAL},
+      </if>
+    </set>
+    <if test="_parameter != null" >
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByExample" parameterType="map" >
+    update scl90
+    set id = #{record.id,jdbcType=INTEGER},
+      userid = #{record.userid,jdbcType=INTEGER},
+      time = #{record.time,jdbcType=TIMESTAMP},
+      answer1 = #{record.answer1,jdbcType=INTEGER},
+      answer2 = #{record.answer2,jdbcType=INTEGER},
+      answer3 = #{record.answer3,jdbcType=INTEGER},
+      answer4 = #{record.answer4,jdbcType=INTEGER},
+      answer5 = #{record.answer5,jdbcType=INTEGER},
+      answer6 = #{record.answer6,jdbcType=INTEGER},
+      answer7 = #{record.answer7,jdbcType=INTEGER},
+      answer8 = #{record.answer8,jdbcType=INTEGER},
+      answer9 = #{record.answer9,jdbcType=INTEGER},
+      answer10 = #{record.answer10,jdbcType=INTEGER},
+      answer11 = #{record.answer11,jdbcType=INTEGER},
+      answer12 = #{record.answer12,jdbcType=INTEGER},
+      answer13 = #{record.answer13,jdbcType=INTEGER},
+      answer14 = #{record.answer14,jdbcType=INTEGER},
+      answer15 = #{record.answer15,jdbcType=INTEGER},
+      answer16 = #{record.answer16,jdbcType=INTEGER},
+      answer17 = #{record.answer17,jdbcType=INTEGER},
+      answer18 = #{record.answer18,jdbcType=INTEGER},
+      answer19 = #{record.answer19,jdbcType=INTEGER},
+      answer20 = #{record.answer20,jdbcType=INTEGER},
+      answer21 = #{record.answer21,jdbcType=INTEGER},
+      answer22 = #{record.answer22,jdbcType=INTEGER},
+      answer23 = #{record.answer23,jdbcType=INTEGER},
+      answer24 = #{record.answer24,jdbcType=INTEGER},
+      answer25 = #{record.answer25,jdbcType=INTEGER},
+      answer26 = #{record.answer26,jdbcType=INTEGER},
+      answer27 = #{record.answer27,jdbcType=INTEGER},
+      answer28 = #{record.answer28,jdbcType=INTEGER},
+      answer29 = #{record.answer29,jdbcType=INTEGER},
+      answer30 = #{record.answer30,jdbcType=INTEGER},
+      answer31 = #{record.answer31,jdbcType=INTEGER},
+      answer32 = #{record.answer32,jdbcType=INTEGER},
+      answer33 = #{record.answer33,jdbcType=INTEGER},
+      answer34 = #{record.answer34,jdbcType=INTEGER},
+      answer35 = #{record.answer35,jdbcType=INTEGER},
+      answer36 = #{record.answer36,jdbcType=INTEGER},
+      answer37 = #{record.answer37,jdbcType=INTEGER},
+      answer38 = #{record.answer38,jdbcType=INTEGER},
+      answer39 = #{record.answer39,jdbcType=INTEGER},
+      answer40 = #{record.answer40,jdbcType=INTEGER},
+      answer41 = #{record.answer41,jdbcType=INTEGER},
+      answer42 = #{record.answer42,jdbcType=INTEGER},
+      answer43 = #{record.answer43,jdbcType=INTEGER},
+      answer44 = #{record.answer44,jdbcType=INTEGER},
+      answer45 = #{record.answer45,jdbcType=INTEGER},
+      answer46 = #{record.answer46,jdbcType=INTEGER},
+      answer47 = #{record.answer47,jdbcType=INTEGER},
+      answer48 = #{record.answer48,jdbcType=INTEGER},
+      answer49 = #{record.answer49,jdbcType=INTEGER},
+      answer50 = #{record.answer50,jdbcType=INTEGER},
+      answer51 = #{record.answer51,jdbcType=INTEGER},
+      answer52 = #{record.answer52,jdbcType=INTEGER},
+      answer53 = #{record.answer53,jdbcType=INTEGER},
+      answer54 = #{record.answer54,jdbcType=INTEGER},
+      answer55 = #{record.answer55,jdbcType=INTEGER},
+      answer56 = #{record.answer56,jdbcType=INTEGER},
+      answer57 = #{record.answer57,jdbcType=INTEGER},
+      answer58 = #{record.answer58,jdbcType=INTEGER},
+      answer59 = #{record.answer59,jdbcType=INTEGER},
+      answer60 = #{record.answer60,jdbcType=INTEGER},
+      answer61 = #{record.answer61,jdbcType=INTEGER},
+      answer62 = #{record.answer62,jdbcType=INTEGER},
+      answer63 = #{record.answer63,jdbcType=INTEGER},
+      answer64 = #{record.answer64,jdbcType=INTEGER},
+      answer65 = #{record.answer65,jdbcType=INTEGER},
+      answer66 = #{record.answer66,jdbcType=INTEGER},
+      answer67 = #{record.answer67,jdbcType=INTEGER},
+      answer68 = #{record.answer68,jdbcType=INTEGER},
+      answer69 = #{record.answer69,jdbcType=INTEGER},
+      answer70 = #{record.answer70,jdbcType=INTEGER},
+      answer71 = #{record.answer71,jdbcType=INTEGER},
+      answer72 = #{record.answer72,jdbcType=INTEGER},
+      answer73 = #{record.answer73,jdbcType=INTEGER},
+      answer74 = #{record.answer74,jdbcType=INTEGER},
+      answer75 = #{record.answer75,jdbcType=INTEGER},
+      answer76 = #{record.answer76,jdbcType=INTEGER},
+      answer77 = #{record.answer77,jdbcType=INTEGER},
+      answer78 = #{record.answer78,jdbcType=INTEGER},
+      answer79 = #{record.answer79,jdbcType=INTEGER},
+      answer80 = #{record.answer80,jdbcType=INTEGER},
+      answer81 = #{record.answer81,jdbcType=INTEGER},
+      answer82 = #{record.answer82,jdbcType=INTEGER},
+      answer83 = #{record.answer83,jdbcType=INTEGER},
+      answer84 = #{record.answer84,jdbcType=INTEGER},
+      answer85 = #{record.answer85,jdbcType=INTEGER},
+      answer86 = #{record.answer86,jdbcType=INTEGER},
+      answer87 = #{record.answer87,jdbcType=INTEGER},
+      answer88 = #{record.answer88,jdbcType=INTEGER},
+      answer89 = #{record.answer89,jdbcType=INTEGER},
+      answer90 = #{record.answer90,jdbcType=INTEGER},
+      sumscore = #{record.sumscore,jdbcType=INTEGER},
+      average = #{record.average,jdbcType=REAL},
+      pos_symptom = #{record.posSymptom,jdbcType=INTEGER},
+      neg_symptom = #{record.negSymptom,jdbcType=INTEGER},
+      pos_symptom_avg = #{record.posSymptomAvg,jdbcType=REAL}
+    <if test="_parameter != null" >
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByPrimaryKeySelective" parameterType="com.psytest.myproject.bean.Scl90" >
+    update scl90
+    <set >
+      <if test="userid != null" >
+        userid = #{userid,jdbcType=INTEGER},
+      </if>
+      <if test="time != null" >
+        time = #{time,jdbcType=TIMESTAMP},
+      </if>
+      <if test="answer1 != null" >
+        answer1 = #{answer1,jdbcType=INTEGER},
+      </if>
+      <if test="answer2 != null" >
+        answer2 = #{answer2,jdbcType=INTEGER},
+      </if>
+      <if test="answer3 != null" >
+        answer3 = #{answer3,jdbcType=INTEGER},
+      </if>
+      <if test="answer4 != null" >
+        answer4 = #{answer4,jdbcType=INTEGER},
+      </if>
+      <if test="answer5 != null" >
+        answer5 = #{answer5,jdbcType=INTEGER},
+      </if>
+      <if test="answer6 != null" >
+        answer6 = #{answer6,jdbcType=INTEGER},
+      </if>
+      <if test="answer7 != null" >
+        answer7 = #{answer7,jdbcType=INTEGER},
+      </if>
+      <if test="answer8 != null" >
+        answer8 = #{answer8,jdbcType=INTEGER},
+      </if>
+      <if test="answer9 != null" >
+        answer9 = #{answer9,jdbcType=INTEGER},
+      </if>
+      <if test="answer10 != null" >
+        answer10 = #{answer10,jdbcType=INTEGER},
+      </if>
+      <if test="answer11 != null" >
+        answer11 = #{answer11,jdbcType=INTEGER},
+      </if>
+      <if test="answer12 != null" >
+        answer12 = #{answer12,jdbcType=INTEGER},
+      </if>
+      <if test="answer13 != null" >
+        answer13 = #{answer13,jdbcType=INTEGER},
+      </if>
+      <if test="answer14 != null" >
+        answer14 = #{answer14,jdbcType=INTEGER},
+      </if>
+      <if test="answer15 != null" >
+        answer15 = #{answer15,jdbcType=INTEGER},
+      </if>
+      <if test="answer16 != null" >
+        answer16 = #{answer16,jdbcType=INTEGER},
+      </if>
+      <if test="answer17 != null" >
+        answer17 = #{answer17,jdbcType=INTEGER},
+      </if>
+      <if test="answer18 != null" >
+        answer18 = #{answer18,jdbcType=INTEGER},
+      </if>
+      <if test="answer19 != null" >
+        answer19 = #{answer19,jdbcType=INTEGER},
+      </if>
+      <if test="answer20 != null" >
+        answer20 = #{answer20,jdbcType=INTEGER},
+      </if>
+      <if test="answer21 != null" >
+        answer21 = #{answer21,jdbcType=INTEGER},
+      </if>
+      <if test="answer22 != null" >
+        answer22 = #{answer22,jdbcType=INTEGER},
+      </if>
+      <if test="answer23 != null" >
+        answer23 = #{answer23,jdbcType=INTEGER},
+      </if>
+      <if test="answer24 != null" >
+        answer24 = #{answer24,jdbcType=INTEGER},
+      </if>
+      <if test="answer25 != null" >
+        answer25 = #{answer25,jdbcType=INTEGER},
+      </if>
+      <if test="answer26 != null" >
+        answer26 = #{answer26,jdbcType=INTEGER},
+      </if>
+      <if test="answer27 != null" >
+        answer27 = #{answer27,jdbcType=INTEGER},
+      </if>
+      <if test="answer28 != null" >
+        answer28 = #{answer28,jdbcType=INTEGER},
+      </if>
+      <if test="answer29 != null" >
+        answer29 = #{answer29,jdbcType=INTEGER},
+      </if>
+      <if test="answer30 != null" >
+        answer30 = #{answer30,jdbcType=INTEGER},
+      </if>
+      <if test="answer31 != null" >
+        answer31 = #{answer31,jdbcType=INTEGER},
+      </if>
+      <if test="answer32 != null" >
+        answer32 = #{answer32,jdbcType=INTEGER},
+      </if>
+      <if test="answer33 != null" >
+        answer33 = #{answer33,jdbcType=INTEGER},
+      </if>
+      <if test="answer34 != null" >
+        answer34 = #{answer34,jdbcType=INTEGER},
+      </if>
+      <if test="answer35 != null" >
+        answer35 = #{answer35,jdbcType=INTEGER},
+      </if>
+      <if test="answer36 != null" >
+        answer36 = #{answer36,jdbcType=INTEGER},
+      </if>
+      <if test="answer37 != null" >
+        answer37 = #{answer37,jdbcType=INTEGER},
+      </if>
+      <if test="answer38 != null" >
+        answer38 = #{answer38,jdbcType=INTEGER},
+      </if>
+      <if test="answer39 != null" >
+        answer39 = #{answer39,jdbcType=INTEGER},
+      </if>
+      <if test="answer40 != null" >
+        answer40 = #{answer40,jdbcType=INTEGER},
+      </if>
+      <if test="answer41 != null" >
+        answer41 = #{answer41,jdbcType=INTEGER},
+      </if>
+      <if test="answer42 != null" >
+        answer42 = #{answer42,jdbcType=INTEGER},
+      </if>
+      <if test="answer43 != null" >
+        answer43 = #{answer43,jdbcType=INTEGER},
+      </if>
+      <if test="answer44 != null" >
+        answer44 = #{answer44,jdbcType=INTEGER},
+      </if>
+      <if test="answer45 != null" >
+        answer45 = #{answer45,jdbcType=INTEGER},
+      </if>
+      <if test="answer46 != null" >
+        answer46 = #{answer46,jdbcType=INTEGER},
+      </if>
+      <if test="answer47 != null" >
+        answer47 = #{answer47,jdbcType=INTEGER},
+      </if>
+      <if test="answer48 != null" >
+        answer48 = #{answer48,jdbcType=INTEGER},
+      </if>
+      <if test="answer49 != null" >
+        answer49 = #{answer49,jdbcType=INTEGER},
+      </if>
+      <if test="answer50 != null" >
+        answer50 = #{answer50,jdbcType=INTEGER},
+      </if>
+      <if test="answer51 != null" >
+        answer51 = #{answer51,jdbcType=INTEGER},
+      </if>
+      <if test="answer52 != null" >
+        answer52 = #{answer52,jdbcType=INTEGER},
+      </if>
+      <if test="answer53 != null" >
+        answer53 = #{answer53,jdbcType=INTEGER},
+      </if>
+      <if test="answer54 != null" >
+        answer54 = #{answer54,jdbcType=INTEGER},
+      </if>
+      <if test="answer55 != null" >
+        answer55 = #{answer55,jdbcType=INTEGER},
+      </if>
+      <if test="answer56 != null" >
+        answer56 = #{answer56,jdbcType=INTEGER},
+      </if>
+      <if test="answer57 != null" >
+        answer57 = #{answer57,jdbcType=INTEGER},
+      </if>
+      <if test="answer58 != null" >
+        answer58 = #{answer58,jdbcType=INTEGER},
+      </if>
+      <if test="answer59 != null" >
+        answer59 = #{answer59,jdbcType=INTEGER},
+      </if>
+      <if test="answer60 != null" >
+        answer60 = #{answer60,jdbcType=INTEGER},
+      </if>
+      <if test="answer61 != null" >
+        answer61 = #{answer61,jdbcType=INTEGER},
+      </if>
+      <if test="answer62 != null" >
+        answer62 = #{answer62,jdbcType=INTEGER},
+      </if>
+      <if test="answer63 != null" >
+        answer63 = #{answer63,jdbcType=INTEGER},
+      </if>
+      <if test="answer64 != null" >
+        answer64 = #{answer64,jdbcType=INTEGER},
+      </if>
+      <if test="answer65 != null" >
+        answer65 = #{answer65,jdbcType=INTEGER},
+      </if>
+      <if test="answer66 != null" >
+        answer66 = #{answer66,jdbcType=INTEGER},
+      </if>
+      <if test="answer67 != null" >
+        answer67 = #{answer67,jdbcType=INTEGER},
+      </if>
+      <if test="answer68 != null" >
+        answer68 = #{answer68,jdbcType=INTEGER},
+      </if>
+      <if test="answer69 != null" >
+        answer69 = #{answer69,jdbcType=INTEGER},
+      </if>
+      <if test="answer70 != null" >
+        answer70 = #{answer70,jdbcType=INTEGER},
+      </if>
+      <if test="answer71 != null" >
+        answer71 = #{answer71,jdbcType=INTEGER},
+      </if>
+      <if test="answer72 != null" >
+        answer72 = #{answer72,jdbcType=INTEGER},
+      </if>
+      <if test="answer73 != null" >
+        answer73 = #{answer73,jdbcType=INTEGER},
+      </if>
+      <if test="answer74 != null" >
+        answer74 = #{answer74,jdbcType=INTEGER},
+      </if>
+      <if test="answer75 != null" >
+        answer75 = #{answer75,jdbcType=INTEGER},
+      </if>
+      <if test="answer76 != null" >
+        answer76 = #{answer76,jdbcType=INTEGER},
+      </if>
+      <if test="answer77 != null" >
+        answer77 = #{answer77,jdbcType=INTEGER},
+      </if>
+      <if test="answer78 != null" >
+        answer78 = #{answer78,jdbcType=INTEGER},
+      </if>
+      <if test="answer79 != null" >
+        answer79 = #{answer79,jdbcType=INTEGER},
+      </if>
+      <if test="answer80 != null" >
+        answer80 = #{answer80,jdbcType=INTEGER},
+      </if>
+      <if test="answer81 != null" >
+        answer81 = #{answer81,jdbcType=INTEGER},
+      </if>
+      <if test="answer82 != null" >
+        answer82 = #{answer82,jdbcType=INTEGER},
+      </if>
+      <if test="answer83 != null" >
+        answer83 = #{answer83,jdbcType=INTEGER},
+      </if>
+      <if test="answer84 != null" >
+        answer84 = #{answer84,jdbcType=INTEGER},
+      </if>
+      <if test="answer85 != null" >
+        answer85 = #{answer85,jdbcType=INTEGER},
+      </if>
+      <if test="answer86 != null" >
+        answer86 = #{answer86,jdbcType=INTEGER},
+      </if>
+      <if test="answer87 != null" >
+        answer87 = #{answer87,jdbcType=INTEGER},
+      </if>
+      <if test="answer88 != null" >
+        answer88 = #{answer88,jdbcType=INTEGER},
+      </if>
+      <if test="answer89 != null" >
+        answer89 = #{answer89,jdbcType=INTEGER},
+      </if>
+      <if test="answer90 != null" >
+        answer90 = #{answer90,jdbcType=INTEGER},
+      </if>
+      <if test="sumscore != null" >
+        sumscore = #{sumscore,jdbcType=INTEGER},
+      </if>
+      <if test="average != null" >
+        average = #{average,jdbcType=REAL},
+      </if>
+      <if test="posSymptom != null" >
+        pos_symptom = #{posSymptom,jdbcType=INTEGER},
+      </if>
+      <if test="negSymptom != null" >
+        neg_symptom = #{negSymptom,jdbcType=INTEGER},
+      </if>
+      <if test="posSymptomAvg != null" >
+        pos_symptom_avg = #{posSymptomAvg,jdbcType=REAL},
+      </if>
+    </set>
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.psytest.myproject.bean.Scl90" >
+    update scl90
+    set userid = #{userid,jdbcType=INTEGER},
+      time = #{time,jdbcType=TIMESTAMP},
+      answer1 = #{answer1,jdbcType=INTEGER},
+      answer2 = #{answer2,jdbcType=INTEGER},
+      answer3 = #{answer3,jdbcType=INTEGER},
+      answer4 = #{answer4,jdbcType=INTEGER},
+      answer5 = #{answer5,jdbcType=INTEGER},
+      answer6 = #{answer6,jdbcType=INTEGER},
+      answer7 = #{answer7,jdbcType=INTEGER},
+      answer8 = #{answer8,jdbcType=INTEGER},
+      answer9 = #{answer9,jdbcType=INTEGER},
+      answer10 = #{answer10,jdbcType=INTEGER},
+      answer11 = #{answer11,jdbcType=INTEGER},
+      answer12 = #{answer12,jdbcType=INTEGER},
+      answer13 = #{answer13,jdbcType=INTEGER},
+      answer14 = #{answer14,jdbcType=INTEGER},
+      answer15 = #{answer15,jdbcType=INTEGER},
+      answer16 = #{answer16,jdbcType=INTEGER},
+      answer17 = #{answer17,jdbcType=INTEGER},
+      answer18 = #{answer18,jdbcType=INTEGER},
+      answer19 = #{answer19,jdbcType=INTEGER},
+      answer20 = #{answer20,jdbcType=INTEGER},
+      answer21 = #{answer21,jdbcType=INTEGER},
+      answer22 = #{answer22,jdbcType=INTEGER},
+      answer23 = #{answer23,jdbcType=INTEGER},
+      answer24 = #{answer24,jdbcType=INTEGER},
+      answer25 = #{answer25,jdbcType=INTEGER},
+      answer26 = #{answer26,jdbcType=INTEGER},
+      answer27 = #{answer27,jdbcType=INTEGER},
+      answer28 = #{answer28,jdbcType=INTEGER},
+      answer29 = #{answer29,jdbcType=INTEGER},
+      answer30 = #{answer30,jdbcType=INTEGER},
+      answer31 = #{answer31,jdbcType=INTEGER},
+      answer32 = #{answer32,jdbcType=INTEGER},
+      answer33 = #{answer33,jdbcType=INTEGER},
+      answer34 = #{answer34,jdbcType=INTEGER},
+      answer35 = #{answer35,jdbcType=INTEGER},
+      answer36 = #{answer36,jdbcType=INTEGER},
+      answer37 = #{answer37,jdbcType=INTEGER},
+      answer38 = #{answer38,jdbcType=INTEGER},
+      answer39 = #{answer39,jdbcType=INTEGER},
+      answer40 = #{answer40,jdbcType=INTEGER},
+      answer41 = #{answer41,jdbcType=INTEGER},
+      answer42 = #{answer42,jdbcType=INTEGER},
+      answer43 = #{answer43,jdbcType=INTEGER},
+      answer44 = #{answer44,jdbcType=INTEGER},
+      answer45 = #{answer45,jdbcType=INTEGER},
+      answer46 = #{answer46,jdbcType=INTEGER},
+      answer47 = #{answer47,jdbcType=INTEGER},
+      answer48 = #{answer48,jdbcType=INTEGER},
+      answer49 = #{answer49,jdbcType=INTEGER},
+      answer50 = #{answer50,jdbcType=INTEGER},
+      answer51 = #{answer51,jdbcType=INTEGER},
+      answer52 = #{answer52,jdbcType=INTEGER},
+      answer53 = #{answer53,jdbcType=INTEGER},
+      answer54 = #{answer54,jdbcType=INTEGER},
+      answer55 = #{answer55,jdbcType=INTEGER},
+      answer56 = #{answer56,jdbcType=INTEGER},
+      answer57 = #{answer57,jdbcType=INTEGER},
+      answer58 = #{answer58,jdbcType=INTEGER},
+      answer59 = #{answer59,jdbcType=INTEGER},
+      answer60 = #{answer60,jdbcType=INTEGER},
+      answer61 = #{answer61,jdbcType=INTEGER},
+      answer62 = #{answer62,jdbcType=INTEGER},
+      answer63 = #{answer63,jdbcType=INTEGER},
+      answer64 = #{answer64,jdbcType=INTEGER},
+      answer65 = #{answer65,jdbcType=INTEGER},
+      answer66 = #{answer66,jdbcType=INTEGER},
+      answer67 = #{answer67,jdbcType=INTEGER},
+      answer68 = #{answer68,jdbcType=INTEGER},
+      answer69 = #{answer69,jdbcType=INTEGER},
+      answer70 = #{answer70,jdbcType=INTEGER},
+      answer71 = #{answer71,jdbcType=INTEGER},
+      answer72 = #{answer72,jdbcType=INTEGER},
+      answer73 = #{answer73,jdbcType=INTEGER},
+      answer74 = #{answer74,jdbcType=INTEGER},
+      answer75 = #{answer75,jdbcType=INTEGER},
+      answer76 = #{answer76,jdbcType=INTEGER},
+      answer77 = #{answer77,jdbcType=INTEGER},
+      answer78 = #{answer78,jdbcType=INTEGER},
+      answer79 = #{answer79,jdbcType=INTEGER},
+      answer80 = #{answer80,jdbcType=INTEGER},
+      answer81 = #{answer81,jdbcType=INTEGER},
+      answer82 = #{answer82,jdbcType=INTEGER},
+      answer83 = #{answer83,jdbcType=INTEGER},
+      answer84 = #{answer84,jdbcType=INTEGER},
+      answer85 = #{answer85,jdbcType=INTEGER},
+      answer86 = #{answer86,jdbcType=INTEGER},
+      answer87 = #{answer87,jdbcType=INTEGER},
+      answer88 = #{answer88,jdbcType=INTEGER},
+      answer89 = #{answer89,jdbcType=INTEGER},
+      answer90 = #{answer90,jdbcType=INTEGER},
+      sumscore = #{sumscore,jdbcType=INTEGER},
+      average = #{average,jdbcType=REAL},
+      pos_symptom = #{posSymptom,jdbcType=INTEGER},
+      neg_symptom = #{negSymptom,jdbcType=INTEGER},
+      pos_symptom_avg = #{posSymptomAvg,jdbcType=REAL}
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+</mapper>
