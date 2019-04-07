@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-##### 本项目为毕设自用。
+##本项目为毕设自用。
 <small>Author:Sirice</small>
 
 ### bean key explanation
@@ -108,7 +107,3 @@ User field
 
 CheckResult Module(user field)
 
-
-=======
-毕业设计自用。
->>>>>>> 708f8b21419a3371a6f3f4e4e9602bf0a76558d3
