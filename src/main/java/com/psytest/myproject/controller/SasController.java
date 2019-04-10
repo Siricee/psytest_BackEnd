@@ -30,6 +30,7 @@ public class SasController {
     List<Sas> selectByExample(HttpServletRequest request){
         return sasService.selectByExample(new SasExample());
     }
+
     /**
      * 获取某个用户的sas提交历史
      * @param request
@@ -44,6 +45,7 @@ public class SasController {
 
         return sasService.selectByExample(sasExample);
     }
+
     /**
      * 根据记录的主键删除某条sas记录
      * @param request
