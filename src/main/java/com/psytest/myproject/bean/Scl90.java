@@ -191,13 +191,29 @@ public class Scl90 {
 
     private Integer sumscore;
 
-    private Float average;
+    private Integer posSymptomCount;
 
-    private Integer posSymptom;
+    private Integer negSymptomCount;
 
-    private Integer negSymptom;
+    private Float posSymptomAvgscore;
 
-    private Float posSymptomAvg;
+    private Integer somatization;
+
+    private Integer obsessive;
+
+    private Integer interpersonal;
+
+    private Integer depression;
+
+    private Integer anxiety;
+
+    private Integer hostility;
+
+    private Integer phobic;
+
+    private Integer paranoid;
+
+    private Integer psychoticism;
 
     public Integer getId() {
         return id;
@@ -951,35 +967,99 @@ public class Scl90 {
         this.sumscore = sumscore;
     }
 
-    public Float getAverage() {
-        return average;
+    public Integer getPosSymptomCount() {
+        return posSymptomCount;
     }
 
-    public void setAverage(Float average) {
-        this.average = average;
+    public void setPosSymptomCount(Integer posSymptomCount) {
+        this.posSymptomCount = posSymptomCount;
     }
 
-    public Integer getPosSymptom() {
-        return posSymptom;
+    public Integer getNegSymptomCount() {
+        return negSymptomCount;
     }
 
-    public void setPosSymptom(Integer posSymptom) {
-        this.posSymptom = posSymptom;
+    public void setNegSymptomCount(Integer negSymptomCount) {
+        this.negSymptomCount = negSymptomCount;
     }
 
-    public Integer getNegSymptom() {
-        return negSymptom;
+    public Float getPosSymptomAvgscore() {
+        return posSymptomAvgscore;
     }
 
-    public void setNegSymptom(Integer negSymptom) {
-        this.negSymptom = negSymptom;
+    public void setPosSymptomAvgscore(Float posSymptomAvgscore) {
+        this.posSymptomAvgscore = posSymptomAvgscore;
     }
 
-    public Float getPosSymptomAvg() {
-        return posSymptomAvg;
+    public Integer getSomatization() {
+        return somatization;
     }
 
-    public void setPosSymptomAvg(Float posSymptomAvg) {
-        this.posSymptomAvg = posSymptomAvg;
+    public void setSomatization(Integer somatization) {
+        this.somatization = somatization;
+    }
+
+    public Integer getObsessive() {
+        return obsessive;
+    }
+
+    public void setObsessive(Integer obsessive) {
+        this.obsessive = obsessive;
+    }
+
+    public Integer getInterpersonal() {
+        return interpersonal;
+    }
+
+    public void setInterpersonal(Integer interpersonal) {
+        this.interpersonal = interpersonal;
+    }
+
+    public Integer getDepression() {
+        return depression;
+    }
+
+    public void setDepression(Integer depression) {
+        this.depression = depression;
+    }
+
+    public Integer getAnxiety() {
+        return anxiety;
+    }
+
+    public void setAnxiety(Integer anxiety) {
+        this.anxiety = anxiety;
+    }
+
+    public Integer getHostility() {
+        return hostility;
+    }
+
+    public void setHostility(Integer hostility) {
+        this.hostility = hostility;
+    }
+
+    public Integer getPhobic() {
+        return phobic;
+    }
+
+    public void setPhobic(Integer phobic) {
+        this.phobic = phobic;
+    }
+
+    public Integer getParanoid() {
+        return paranoid;
+    }
+
+    public void setParanoid(Integer paranoid) {
+        this.paranoid = paranoid;
+    }
+
+    public Integer getPsychoticism() {
+        return psychoticism;
+    }
+
+    public void setPsychoticism(Integer psychoticism) {
+        this.psychoticism = psychoticism;
     }
 }

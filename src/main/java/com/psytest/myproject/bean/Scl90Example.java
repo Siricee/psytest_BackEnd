@@ -5745,243 +5745,723 @@ public class Scl90Example {
             return (Criteria) this;
         }
 
-        public Criteria andAverageIsNull() {
-            addCriterion("average is null");
+        public Criteria andPosSymptomCountIsNull() {
+            addCriterion("pos_symptom_count is null");
             return (Criteria) this;
         }
 
-        public Criteria andAverageIsNotNull() {
-            addCriterion("average is not null");
+        public Criteria andPosSymptomCountIsNotNull() {
+            addCriterion("pos_symptom_count is not null");
             return (Criteria) this;
         }
 
-        public Criteria andAverageEqualTo(Float value) {
-            addCriterion("average =", value, "average");
+        public Criteria andPosSymptomCountEqualTo(Integer value) {
+            addCriterion("pos_symptom_count =", value, "posSymptomCount");
             return (Criteria) this;
         }
 
-        public Criteria andAverageNotEqualTo(Float value) {
-            addCriterion("average <>", value, "average");
+        public Criteria andPosSymptomCountNotEqualTo(Integer value) {
+            addCriterion("pos_symptom_count <>", value, "posSymptomCount");
             return (Criteria) this;
         }
 
-        public Criteria andAverageGreaterThan(Float value) {
-            addCriterion("average >", value, "average");
+        public Criteria andPosSymptomCountGreaterThan(Integer value) {
+            addCriterion("pos_symptom_count >", value, "posSymptomCount");
             return (Criteria) this;
         }
 
-        public Criteria andAverageGreaterThanOrEqualTo(Float value) {
-            addCriterion("average >=", value, "average");
+        public Criteria andPosSymptomCountGreaterThanOrEqualTo(Integer value) {
+            addCriterion("pos_symptom_count >=", value, "posSymptomCount");
             return (Criteria) this;
         }
 
-        public Criteria andAverageLessThan(Float value) {
-            addCriterion("average <", value, "average");
+        public Criteria andPosSymptomCountLessThan(Integer value) {
+            addCriterion("pos_symptom_count <", value, "posSymptomCount");
             return (Criteria) this;
         }
 
-        public Criteria andAverageLessThanOrEqualTo(Float value) {
-            addCriterion("average <=", value, "average");
+        public Criteria andPosSymptomCountLessThanOrEqualTo(Integer value) {
+            addCriterion("pos_symptom_count <=", value, "posSymptomCount");
             return (Criteria) this;
         }
 
-        public Criteria andAverageIn(List<Float> values) {
-            addCriterion("average in", values, "average");
+        public Criteria andPosSymptomCountIn(List<Integer> values) {
+            addCriterion("pos_symptom_count in", values, "posSymptomCount");
             return (Criteria) this;
         }
 
-        public Criteria andAverageNotIn(List<Float> values) {
-            addCriterion("average not in", values, "average");
+        public Criteria andPosSymptomCountNotIn(List<Integer> values) {
+            addCriterion("pos_symptom_count not in", values, "posSymptomCount");
             return (Criteria) this;
         }
 
-        public Criteria andAverageBetween(Float value1, Float value2) {
-            addCriterion("average between", value1, value2, "average");
+        public Criteria andPosSymptomCountBetween(Integer value1, Integer value2) {
+            addCriterion("pos_symptom_count between", value1, value2, "posSymptomCount");
             return (Criteria) this;
         }
 
-        public Criteria andAverageNotBetween(Float value1, Float value2) {
-            addCriterion("average not between", value1, value2, "average");
+        public Criteria andPosSymptomCountNotBetween(Integer value1, Integer value2) {
+            addCriterion("pos_symptom_count not between", value1, value2, "posSymptomCount");
             return (Criteria) this;
         }
 
-        public Criteria andPosSymptomIsNull() {
-            addCriterion("pos_symptom is null");
+        public Criteria andNegSymptomCountIsNull() {
+            addCriterion("neg_symptom_count is null");
             return (Criteria) this;
         }
 
-        public Criteria andPosSymptomIsNotNull() {
-            addCriterion("pos_symptom is not null");
+        public Criteria andNegSymptomCountIsNotNull() {
+            addCriterion("neg_symptom_count is not null");
             return (Criteria) this;
         }
 
-        public Criteria andPosSymptomEqualTo(Integer value) {
-            addCriterion("pos_symptom =", value, "posSymptom");
+        public Criteria andNegSymptomCountEqualTo(Integer value) {
+            addCriterion("neg_symptom_count =", value, "negSymptomCount");
             return (Criteria) this;
         }
 
-        public Criteria andPosSymptomNotEqualTo(Integer value) {
-            addCriterion("pos_symptom <>", value, "posSymptom");
+        public Criteria andNegSymptomCountNotEqualTo(Integer value) {
+            addCriterion("neg_symptom_count <>", value, "negSymptomCount");
             return (Criteria) this;
         }
 
-        public Criteria andPosSymptomGreaterThan(Integer value) {
-            addCriterion("pos_symptom >", value, "posSymptom");
+        public Criteria andNegSymptomCountGreaterThan(Integer value) {
+            addCriterion("neg_symptom_count >", value, "negSymptomCount");
             return (Criteria) this;
         }
 
-        public Criteria andPosSymptomGreaterThanOrEqualTo(Integer value) {
-            addCriterion("pos_symptom >=", value, "posSymptom");
+        public Criteria andNegSymptomCountGreaterThanOrEqualTo(Integer value) {
+            addCriterion("neg_symptom_count >=", value, "negSymptomCount");
             return (Criteria) this;
         }
 
-        public Criteria andPosSymptomLessThan(Integer value) {
-            addCriterion("pos_symptom <", value, "posSymptom");
+        public Criteria andNegSymptomCountLessThan(Integer value) {
+            addCriterion("neg_symptom_count <", value, "negSymptomCount");
             return (Criteria) this;
         }
 
-        public Criteria andPosSymptomLessThanOrEqualTo(Integer value) {
-            addCriterion("pos_symptom <=", value, "posSymptom");
+        public Criteria andNegSymptomCountLessThanOrEqualTo(Integer value) {
+            addCriterion("neg_symptom_count <=", value, "negSymptomCount");
             return (Criteria) this;
         }
 
-        public Criteria andPosSymptomIn(List<Integer> values) {
-            addCriterion("pos_symptom in", values, "posSymptom");
+        public Criteria andNegSymptomCountIn(List<Integer> values) {
+            addCriterion("neg_symptom_count in", values, "negSymptomCount");
             return (Criteria) this;
         }
 
-        public Criteria andPosSymptomNotIn(List<Integer> values) {
-            addCriterion("pos_symptom not in", values, "posSymptom");
+        public Criteria andNegSymptomCountNotIn(List<Integer> values) {
+            addCriterion("neg_symptom_count not in", values, "negSymptomCount");
             return (Criteria) this;
         }
 
-        public Criteria andPosSymptomBetween(Integer value1, Integer value2) {
-            addCriterion("pos_symptom between", value1, value2, "posSymptom");
+        public Criteria andNegSymptomCountBetween(Integer value1, Integer value2) {
+            addCriterion("neg_symptom_count between", value1, value2, "negSymptomCount");
             return (Criteria) this;
         }
 
-        public Criteria andPosSymptomNotBetween(Integer value1, Integer value2) {
-            addCriterion("pos_symptom not between", value1, value2, "posSymptom");
+        public Criteria andNegSymptomCountNotBetween(Integer value1, Integer value2) {
+            addCriterion("neg_symptom_count not between", value1, value2, "negSymptomCount");
             return (Criteria) this;
         }
 
-        public Criteria andNegSymptomIsNull() {
-            addCriterion("neg_symptom is null");
+        public Criteria andPosSymptomAvgscoreIsNull() {
+            addCriterion("pos_symptom_avgscore is null");
             return (Criteria) this;
         }
 
-        public Criteria andNegSymptomIsNotNull() {
-            addCriterion("neg_symptom is not null");
+        public Criteria andPosSymptomAvgscoreIsNotNull() {
+            addCriterion("pos_symptom_avgscore is not null");
             return (Criteria) this;
         }
 
-        public Criteria andNegSymptomEqualTo(Integer value) {
-            addCriterion("neg_symptom =", value, "negSymptom");
+        public Criteria andPosSymptomAvgscoreEqualTo(Float value) {
+            addCriterion("pos_symptom_avgscore =", value, "posSymptomAvgscore");
             return (Criteria) this;
         }
 
-        public Criteria andNegSymptomNotEqualTo(Integer value) {
-            addCriterion("neg_symptom <>", value, "negSymptom");
+        public Criteria andPosSymptomAvgscoreNotEqualTo(Float value) {
+            addCriterion("pos_symptom_avgscore <>", value, "posSymptomAvgscore");
             return (Criteria) this;
         }
 
-        public Criteria andNegSymptomGreaterThan(Integer value) {
-            addCriterion("neg_symptom >", value, "negSymptom");
+        public Criteria andPosSymptomAvgscoreGreaterThan(Float value) {
+            addCriterion("pos_symptom_avgscore >", value, "posSymptomAvgscore");
             return (Criteria) this;
         }
 
-        public Criteria andNegSymptomGreaterThanOrEqualTo(Integer value) {
-            addCriterion("neg_symptom >=", value, "negSymptom");
+        public Criteria andPosSymptomAvgscoreGreaterThanOrEqualTo(Float value) {
+            addCriterion("pos_symptom_avgscore >=", value, "posSymptomAvgscore");
             return (Criteria) this;
         }
 
-        public Criteria andNegSymptomLessThan(Integer value) {
-            addCriterion("neg_symptom <", value, "negSymptom");
+        public Criteria andPosSymptomAvgscoreLessThan(Float value) {
+            addCriterion("pos_symptom_avgscore <", value, "posSymptomAvgscore");
             return (Criteria) this;
         }
 
-        public Criteria andNegSymptomLessThanOrEqualTo(Integer value) {
-            addCriterion("neg_symptom <=", value, "negSymptom");
+        public Criteria andPosSymptomAvgscoreLessThanOrEqualTo(Float value) {
+            addCriterion("pos_symptom_avgscore <=", value, "posSymptomAvgscore");
             return (Criteria) this;
         }
 
-        public Criteria andNegSymptomIn(List<Integer> values) {
-            addCriterion("neg_symptom in", values, "negSymptom");
+        public Criteria andPosSymptomAvgscoreIn(List<Float> values) {
+            addCriterion("pos_symptom_avgscore in", values, "posSymptomAvgscore");
             return (Criteria) this;
         }
 
-        public Criteria andNegSymptomNotIn(List<Integer> values) {
-            addCriterion("neg_symptom not in", values, "negSymptom");
+        public Criteria andPosSymptomAvgscoreNotIn(List<Float> values) {
+            addCriterion("pos_symptom_avgscore not in", values, "posSymptomAvgscore");
             return (Criteria) this;
         }
 
-        public Criteria andNegSymptomBetween(Integer value1, Integer value2) {
-            addCriterion("neg_symptom between", value1, value2, "negSymptom");
+        public Criteria andPosSymptomAvgscoreBetween(Float value1, Float value2) {
+            addCriterion("pos_symptom_avgscore between", value1, value2, "posSymptomAvgscore");
             return (Criteria) this;
         }
 
-        public Criteria andNegSymptomNotBetween(Integer value1, Integer value2) {
-            addCriterion("neg_symptom not between", value1, value2, "negSymptom");
+        public Criteria andPosSymptomAvgscoreNotBetween(Float value1, Float value2) {
+            addCriterion("pos_symptom_avgscore not between", value1, value2, "posSymptomAvgscore");
             return (Criteria) this;
         }
 
-        public Criteria andPosSymptomAvgIsNull() {
-            addCriterion("pos_symptom_avg is null");
+        public Criteria andSomatizationIsNull() {
+            addCriterion("somatization is null");
             return (Criteria) this;
         }
 
-        public Criteria andPosSymptomAvgIsNotNull() {
-            addCriterion("pos_symptom_avg is not null");
+        public Criteria andSomatizationIsNotNull() {
+            addCriterion("somatization is not null");
             return (Criteria) this;
         }
 
-        public Criteria andPosSymptomAvgEqualTo(Float value) {
-            addCriterion("pos_symptom_avg =", value, "posSymptomAvg");
+        public Criteria andSomatizationEqualTo(Integer value) {
+            addCriterion("somatization =", value, "somatization");
             return (Criteria) this;
         }
 
-        public Criteria andPosSymptomAvgNotEqualTo(Float value) {
-            addCriterion("pos_symptom_avg <>", value, "posSymptomAvg");
+        public Criteria andSomatizationNotEqualTo(Integer value) {
+            addCriterion("somatization <>", value, "somatization");
             return (Criteria) this;
         }
 
-        public Criteria andPosSymptomAvgGreaterThan(Float value) {
-            addCriterion("pos_symptom_avg >", value, "posSymptomAvg");
+        public Criteria andSomatizationGreaterThan(Integer value) {
+            addCriterion("somatization >", value, "somatization");
             return (Criteria) this;
         }
 
-        public Criteria andPosSymptomAvgGreaterThanOrEqualTo(Float value) {
-            addCriterion("pos_symptom_avg >=", value, "posSymptomAvg");
+        public Criteria andSomatizationGreaterThanOrEqualTo(Integer value) {
+            addCriterion("somatization >=", value, "somatization");
             return (Criteria) this;
         }
 
-        public Criteria andPosSymptomAvgLessThan(Float value) {
-            addCriterion("pos_symptom_avg <", value, "posSymptomAvg");
+        public Criteria andSomatizationLessThan(Integer value) {
+            addCriterion("somatization <", value, "somatization");
             return (Criteria) this;
         }
 
-        public Criteria andPosSymptomAvgLessThanOrEqualTo(Float value) {
-            addCriterion("pos_symptom_avg <=", value, "posSymptomAvg");
+        public Criteria andSomatizationLessThanOrEqualTo(Integer value) {
+            addCriterion("somatization <=", value, "somatization");
             return (Criteria) this;
         }
 
-        public Criteria andPosSymptomAvgIn(List<Float> values) {
-            addCriterion("pos_symptom_avg in", values, "posSymptomAvg");
+        public Criteria andSomatizationIn(List<Integer> values) {
+            addCriterion("somatization in", values, "somatization");
             return (Criteria) this;
         }
 
-        public Criteria andPosSymptomAvgNotIn(List<Float> values) {
-            addCriterion("pos_symptom_avg not in", values, "posSymptomAvg");
+        public Criteria andSomatizationNotIn(List<Integer> values) {
+            addCriterion("somatization not in", values, "somatization");
             return (Criteria) this;
         }
 
-        public Criteria andPosSymptomAvgBetween(Float value1, Float value2) {
-            addCriterion("pos_symptom_avg between", value1, value2, "posSymptomAvg");
+        public Criteria andSomatizationBetween(Integer value1, Integer value2) {
+            addCriterion("somatization between", value1, value2, "somatization");
             return (Criteria) this;
         }
 
-        public Criteria andPosSymptomAvgNotBetween(Float value1, Float value2) {
-            addCriterion("pos_symptom_avg not between", value1, value2, "posSymptomAvg");
+        public Criteria andSomatizationNotBetween(Integer value1, Integer value2) {
+            addCriterion("somatization not between", value1, value2, "somatization");
+            return (Criteria) this;
+        }
+
+        public Criteria andObsessiveIsNull() {
+            addCriterion("obsessive is null");
+            return (Criteria) this;
+        }
+
+        public Criteria andObsessiveIsNotNull() {
+            addCriterion("obsessive is not null");
+            return (Criteria) this;
+        }
+
+        public Criteria andObsessiveEqualTo(Integer value) {
+            addCriterion("obsessive =", value, "obsessive");
+            return (Criteria) this;
+        }
+
+        public Criteria andObsessiveNotEqualTo(Integer value) {
+            addCriterion("obsessive <>", value, "obsessive");
+            return (Criteria) this;
+        }
+
+        public Criteria andObsessiveGreaterThan(Integer value) {
+            addCriterion("obsessive >", value, "obsessive");
+            return (Criteria) this;
+        }
+
+        public Criteria andObsessiveGreaterThanOrEqualTo(Integer value) {
+            addCriterion("obsessive >=", value, "obsessive");
+            return (Criteria) this;
+        }
+
+        public Criteria andObsessiveLessThan(Integer value) {
+            addCriterion("obsessive <", value, "obsessive");
+            return (Criteria) this;
+        }
+
+        public Criteria andObsessiveLessThanOrEqualTo(Integer value) {
+            addCriterion("obsessive <=", value, "obsessive");
+            return (Criteria) this;
+        }
+
+        public Criteria andObsessiveIn(List<Integer> values) {
+            addCriterion("obsessive in", values, "obsessive");
+            return (Criteria) this;
+        }
+
+        public Criteria andObsessiveNotIn(List<Integer> values) {
+            addCriterion("obsessive not in", values, "obsessive");
+            return (Criteria) this;
+        }
+
+        public Criteria andObsessiveBetween(Integer value1, Integer value2) {
+            addCriterion("obsessive between", value1, value2, "obsessive");
+            return (Criteria) this;
+        }
+
+        public Criteria andObsessiveNotBetween(Integer value1, Integer value2) {
+            addCriterion("obsessive not between", value1, value2, "obsessive");
+            return (Criteria) this;
+        }
+
+        public Criteria andInterpersonalIsNull() {
+            addCriterion("interpersonal is null");
+            return (Criteria) this;
+        }
+
+        public Criteria andInterpersonalIsNotNull() {
+            addCriterion("interpersonal is not null");
+            return (Criteria) this;
+        }
+
+        public Criteria andInterpersonalEqualTo(Integer value) {
+            addCriterion("interpersonal =", value, "interpersonal");
+            return (Criteria) this;
+        }
+
+        public Criteria andInterpersonalNotEqualTo(Integer value) {
+            addCriterion("interpersonal <>", value, "interpersonal");
+            return (Criteria) this;
+        }
+
+        public Criteria andInterpersonalGreaterThan(Integer value) {
+            addCriterion("interpersonal >", value, "interpersonal");
+            return (Criteria) this;
+        }
+
+        public Criteria andInterpersonalGreaterThanOrEqualTo(Integer value) {
+            addCriterion("interpersonal >=", value, "interpersonal");
+            return (Criteria) this;
+        }
+
+        public Criteria andInterpersonalLessThan(Integer value) {
+            addCriterion("interpersonal <", value, "interpersonal");
+            return (Criteria) this;
+        }
+
+        public Criteria andInterpersonalLessThanOrEqualTo(Integer value) {
+            addCriterion("interpersonal <=", value, "interpersonal");
+            return (Criteria) this;
+        }
+
+        public Criteria andInterpersonalIn(List<Integer> values) {
+            addCriterion("interpersonal in", values, "interpersonal");
+            return (Criteria) this;
+        }
+
+        public Criteria andInterpersonalNotIn(List<Integer> values) {
+            addCriterion("interpersonal not in", values, "interpersonal");
+            return (Criteria) this;
+        }
+
+        public Criteria andInterpersonalBetween(Integer value1, Integer value2) {
+            addCriterion("interpersonal between", value1, value2, "interpersonal");
+            return (Criteria) this;
+        }
+
+        public Criteria andInterpersonalNotBetween(Integer value1, Integer value2) {
+            addCriterion("interpersonal not between", value1, value2, "interpersonal");
+            return (Criteria) this;
+        }
+
+        public Criteria andDepressionIsNull() {
+            addCriterion("depression is null");
+            return (Criteria) this;
+        }
+
+        public Criteria andDepressionIsNotNull() {
+            addCriterion("depression is not null");
+            return (Criteria) this;
+        }
+
+        public Criteria andDepressionEqualTo(Integer value) {
+            addCriterion("depression =", value, "depression");
+            return (Criteria) this;
+        }
+
+        public Criteria andDepressionNotEqualTo(Integer value) {
+            addCriterion("depression <>", value, "depression");
+            return (Criteria) this;
+        }
+
+        public Criteria andDepressionGreaterThan(Integer value) {
+            addCriterion("depression >", value, "depression");
+            return (Criteria) this;
+        }
+
+        public Criteria andDepressionGreaterThanOrEqualTo(Integer value) {
+            addCriterion("depression >=", value, "depression");
+            return (Criteria) this;
+        }
+
+        public Criteria andDepressionLessThan(Integer value) {
+            addCriterion("depression <", value, "depression");
+            return (Criteria) this;
+        }
+
+        public Criteria andDepressionLessThanOrEqualTo(Integer value) {
+            addCriterion("depression <=", value, "depression");
+            return (Criteria) this;
+        }
+
+        public Criteria andDepressionIn(List<Integer> values) {
+            addCriterion("depression in", values, "depression");
+            return (Criteria) this;
+        }
+
+        public Criteria andDepressionNotIn(List<Integer> values) {
+            addCriterion("depression not in", values, "depression");
+            return (Criteria) this;
+        }
+
+        public Criteria andDepressionBetween(Integer value1, Integer value2) {
+            addCriterion("depression between", value1, value2, "depression");
+            return (Criteria) this;
+        }
+
+        public Criteria andDepressionNotBetween(Integer value1, Integer value2) {
+            addCriterion("depression not between", value1, value2, "depression");
+            return (Criteria) this;
+        }
+
+        public Criteria andAnxietyIsNull() {
+            addCriterion("anxiety is null");
+            return (Criteria) this;
+        }
+
+        public Criteria andAnxietyIsNotNull() {
+            addCriterion("anxiety is not null");
+            return (Criteria) this;
+        }
+
+        public Criteria andAnxietyEqualTo(Integer value) {
+            addCriterion("anxiety =", value, "anxiety");
+            return (Criteria) this;
+        }
+
+        public Criteria andAnxietyNotEqualTo(Integer value) {
+            addCriterion("anxiety <>", value, "anxiety");
+            return (Criteria) this;
+        }
+
+        public Criteria andAnxietyGreaterThan(Integer value) {
+            addCriterion("anxiety >", value, "anxiety");
+            return (Criteria) this;
+        }
+
+        public Criteria andAnxietyGreaterThanOrEqualTo(Integer value) {
+            addCriterion("anxiety >=", value, "anxiety");
+            return (Criteria) this;
+        }
+
+        public Criteria andAnxietyLessThan(Integer value) {
+            addCriterion("anxiety <", value, "anxiety");
+            return (Criteria) this;
+        }
+
+        public Criteria andAnxietyLessThanOrEqualTo(Integer value) {
+            addCriterion("anxiety <=", value, "anxiety");
+            return (Criteria) this;
+        }
+
+        public Criteria andAnxietyIn(List<Integer> values) {
+            addCriterion("anxiety in", values, "anxiety");
+            return (Criteria) this;
+        }
+
+        public Criteria andAnxietyNotIn(List<Integer> values) {
+            addCriterion("anxiety not in", values, "anxiety");
+            return (Criteria) this;
+        }
+
+        public Criteria andAnxietyBetween(Integer value1, Integer value2) {
+            addCriterion("anxiety between", value1, value2, "anxiety");
+            return (Criteria) this;
+        }
+
+        public Criteria andAnxietyNotBetween(Integer value1, Integer value2) {
+            addCriterion("anxiety not between", value1, value2, "anxiety");
+            return (Criteria) this;
+        }
+
+        public Criteria andHostilityIsNull() {
+            addCriterion("hostility is null");
+            return (Criteria) this;
+        }
+
+        public Criteria andHostilityIsNotNull() {
+            addCriterion("hostility is not null");
+            return (Criteria) this;
+        }
+
+        public Criteria andHostilityEqualTo(Integer value) {
+            addCriterion("hostility =", value, "hostility");
+            return (Criteria) this;
+        }
+
+        public Criteria andHostilityNotEqualTo(Integer value) {
+            addCriterion("hostility <>", value, "hostility");
+            return (Criteria) this;
+        }
+
+        public Criteria andHostilityGreaterThan(Integer value) {
+            addCriterion("hostility >", value, "hostility");
+            return (Criteria) this;
+        }
+
+        public Criteria andHostilityGreaterThanOrEqualTo(Integer value) {
+            addCriterion("hostility >=", value, "hostility");
+            return (Criteria) this;
+        }
+
+        public Criteria andHostilityLessThan(Integer value) {
+            addCriterion("hostility <", value, "hostility");
+            return (Criteria) this;
+        }
+
+        public Criteria andHostilityLessThanOrEqualTo(Integer value) {
+            addCriterion("hostility <=", value, "hostility");
+            return (Criteria) this;
+        }
+
+        public Criteria andHostilityIn(List<Integer> values) {
+            addCriterion("hostility in", values, "hostility");
+            return (Criteria) this;
+        }
+
+        public Criteria andHostilityNotIn(List<Integer> values) {
+            addCriterion("hostility not in", values, "hostility");
+            return (Criteria) this;
+        }
+
+        public Criteria andHostilityBetween(Integer value1, Integer value2) {
+            addCriterion("hostility between", value1, value2, "hostility");
+            return (Criteria) this;
+        }
+
+        public Criteria andHostilityNotBetween(Integer value1, Integer value2) {
+            addCriterion("hostility not between", value1, value2, "hostility");
+            return (Criteria) this;
+        }
+
+        public Criteria andPhobicIsNull() {
+            addCriterion("phobic is null");
+            return (Criteria) this;
+        }
+
+        public Criteria andPhobicIsNotNull() {
+            addCriterion("phobic is not null");
+            return (Criteria) this;
+        }
+
+        public Criteria andPhobicEqualTo(Integer value) {
+            addCriterion("phobic =", value, "phobic");
+            return (Criteria) this;
+        }
+
+        public Criteria andPhobicNotEqualTo(Integer value) {
+            addCriterion("phobic <>", value, "phobic");
+            return (Criteria) this;
+        }
+
+        public Criteria andPhobicGreaterThan(Integer value) {
+            addCriterion("phobic >", value, "phobic");
+            return (Criteria) this;
+        }
+
+        public Criteria andPhobicGreaterThanOrEqualTo(Integer value) {
+            addCriterion("phobic >=", value, "phobic");
+            return (Criteria) this;
+        }
+
+        public Criteria andPhobicLessThan(Integer value) {
+            addCriterion("phobic <", value, "phobic");
+            return (Criteria) this;
+        }
+
+        public Criteria andPhobicLessThanOrEqualTo(Integer value) {
+            addCriterion("phobic <=", value, "phobic");
+            return (Criteria) this;
+        }
+
+        public Criteria andPhobicIn(List<Integer> values) {
+            addCriterion("phobic in", values, "phobic");
+            return (Criteria) this;
+        }
+
+        public Criteria andPhobicNotIn(List<Integer> values) {
+            addCriterion("phobic not in", values, "phobic");
+            return (Criteria) this;
+        }
+
+        public Criteria andPhobicBetween(Integer value1, Integer value2) {
+            addCriterion("phobic between", value1, value2, "phobic");
+            return (Criteria) this;
+        }
+
+        public Criteria andPhobicNotBetween(Integer value1, Integer value2) {
+            addCriterion("phobic not between", value1, value2, "phobic");
+            return (Criteria) this;
+        }
+
+        public Criteria andParanoidIsNull() {
+            addCriterion("paranoid is null");
+            return (Criteria) this;
+        }
+
+        public Criteria andParanoidIsNotNull() {
+            addCriterion("paranoid is not null");
+            return (Criteria) this;
+        }
+
+        public Criteria andParanoidEqualTo(Integer value) {
+            addCriterion("paranoid =", value, "paranoid");
+            return (Criteria) this;
+        }
+
+        public Criteria andParanoidNotEqualTo(Integer value) {
+            addCriterion("paranoid <>", value, "paranoid");
+            return (Criteria) this;
+        }
+
+        public Criteria andParanoidGreaterThan(Integer value) {
+            addCriterion("paranoid >", value, "paranoid");
+            return (Criteria) this;
+        }
+
+        public Criteria andParanoidGreaterThanOrEqualTo(Integer value) {
+            addCriterion("paranoid >=", value, "paranoid");
+            return (Criteria) this;
+        }
+
+        public Criteria andParanoidLessThan(Integer value) {
+            addCriterion("paranoid <", value, "paranoid");
+            return (Criteria) this;
+        }
+
+        public Criteria andParanoidLessThanOrEqualTo(Integer value) {
+            addCriterion("paranoid <=", value, "paranoid");
+            return (Criteria) this;
+        }
+
+        public Criteria andParanoidIn(List<Integer> values) {
+            addCriterion("paranoid in", values, "paranoid");
+            return (Criteria) this;
+        }
+
+        public Criteria andParanoidNotIn(List<Integer> values) {
+            addCriterion("paranoid not in", values, "paranoid");
+            return (Criteria) this;
+        }
+
+        public Criteria andParanoidBetween(Integer value1, Integer value2) {
+            addCriterion("paranoid between", value1, value2, "paranoid");
+            return (Criteria) this;
+        }
+
+        public Criteria andParanoidNotBetween(Integer value1, Integer value2) {
+            addCriterion("paranoid not between", value1, value2, "paranoid");
+            return (Criteria) this;
+        }
+
+        public Criteria andPsychoticismIsNull() {
+            addCriterion("psychoticism is null");
+            return (Criteria) this;
+        }
+
+        public Criteria andPsychoticismIsNotNull() {
+            addCriterion("psychoticism is not null");
+            return (Criteria) this;
+        }
+
+        public Criteria andPsychoticismEqualTo(Integer value) {
+            addCriterion("psychoticism =", value, "psychoticism");
+            return (Criteria) this;
+        }
+
+        public Criteria andPsychoticismNotEqualTo(Integer value) {
+            addCriterion("psychoticism <>", value, "psychoticism");
+            return (Criteria) this;
+        }
+
+        public Criteria andPsychoticismGreaterThan(Integer value) {
+            addCriterion("psychoticism >", value, "psychoticism");
+            return (Criteria) this;
+        }
+
+        public Criteria andPsychoticismGreaterThanOrEqualTo(Integer value) {
+            addCriterion("psychoticism >=", value, "psychoticism");
+            return (Criteria) this;
+        }
+
+        public Criteria andPsychoticismLessThan(Integer value) {
+            addCriterion("psychoticism <", value, "psychoticism");
+            return (Criteria) this;
+        }
+
+        public Criteria andPsychoticismLessThanOrEqualTo(Integer value) {
+            addCriterion("psychoticism <=", value, "psychoticism");
+            return (Criteria) this;
+        }
+
+        public Criteria andPsychoticismIn(List<Integer> values) {
+            addCriterion("psychoticism in", values, "psychoticism");
+            return (Criteria) this;
+        }
+
+        public Criteria andPsychoticismNotIn(List<Integer> values) {
+            addCriterion("psychoticism not in", values, "psychoticism");
+            return (Criteria) this;
+        }
+
+        public Criteria andPsychoticismBetween(Integer value1, Integer value2) {
+            addCriterion("psychoticism between", value1, value2, "psychoticism");
+            return (Criteria) this;
+        }
+
+        public Criteria andPsychoticismNotBetween(Integer value1, Integer value2) {
+            addCriterion("psychoticism not between", value1, value2, "psychoticism");
             return (Criteria) this;
         }
     }

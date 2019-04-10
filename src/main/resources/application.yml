@@ -8,7 +8,13 @@ spring:
         username: root
         password: root
         driver-class-name: com.mysql.cj.jdbc.Driver
+    thymeleaf:
+      cache: true # 缓存
+
+    devtools:
+      restart:
+        enabled: true  # 热部署开启
+        additional-paths: src/main/java # 监听目录
 mybatis:
   mapper-locations: classpath:mapping/*Mapper.xml
   type-aliases-package: com.psytest.myproject
-

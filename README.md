@@ -3,6 +3,7 @@
 <small>Author:Sirice</small>
 
 ### bean key explanation
+
 User:
  - "id" 自增
  - "username"
@@ -36,19 +37,35 @@ User:
  - "location":"北京", 地理位置，枚举型字符串。
          具体看citySelection控件实现。
  - "salary":1, 年收入范围，枚举型
-         11 >500M 超级大富豪5000万以上
-         10 100M-500M 超级富豪1000万~5000万
-         9 30M-100M 大富豪300万~1000万
-         8 50K-30M 富豪50万~300万
-         7 300K-500K 高产者30万~50万
-         6 150K-300K 中产者15万~30万
-         5 80K-150K 低产者8万~15万
-         4 30K-80K 穷人3万~8万
-         3 10K-30K 很穷的人1万~3万
-         2 5K-10K 非常穷的人5000~1万
-         1 <5K 最穷的人5000元以下
-         数据来自中国贫富标准
+ 
+         1. 1000元以下
+         2. 1000-1999元
+         3. 2000-3999元
+         4. 4000-5999元
+         5. 6000-9999元
+         6. 10000-19999元
+         7. 20000元以上
+         
  - "marriage":0 是否已婚，1已婚0未婚。
+ 
+ SCL90:
+ 
+ - 躯体化somatization: 包括1,4,12,27,40,42,48,49,52,53,56和58,共12项。该因子主要反映主观的身体不适感。
+ - 强迫症状obsessive: 3,9,10,28,38,45,46,51,55和65，共10项，反映临床上的强迫症状群.
+ - 人际关系敏感interpersonal: 包括6,21,34,36,37,41,61,69和73，共9项。主要指某些个人不自在感和自卑感，尤其是在与其他人相比较时更突出。
+ - 抑郁depression: 包括5,14,15,20,22,26,29,30,31,32,54,71和79，共13项。反映与临床上抑郁症状群相联系的广泛的概念。
+ - 焦虑anxiety: 包括2,17,23,33,39,57,72,78,80和86，共10个项目。指在临床上明显与焦虑症状群相联系的精神症状及体验
+ - 敌对hostility: 包括11,24,63,67,74和81，共6项。主要从思维，情感及行为三方面来反映病人的敌对表现。
+ - 恐怖phobic: 包括13,25,47,50,70,75和82，共7项。它与传统的恐怖状态或广场恐怖所反映的内容基本一致。
+ - 偏执paranoid: 包括8,18,43,68,76和83,共6项。主要是指猜疑和关系妄想等。
+ - 精神病性psychoticism: 包括7,16,35,62,77,84,85,87,88和90,共10项。其中幻听，思维播散，被洞悉感等反映精神分裂样症状项目。
+ 
+1. 总分：90个项目单项分相加之和，能反映其病情严重程度。
+2. [不含]总均分：总分/90，表示从总体情况看，该受检者的自我感觉位于1-5级间的的哪一个分值程度上。
+3. 阳性项目数：单项分≥2的项目数，表示受检者在多少项目上呈有“病状”。
+4. 阴性项目数：单项分=1的项目数，表示受检者“无症状”的项目有多少。
+5. 阳性症状均分：（总分－阴性项目数）/阳性项目数，表示受检者在“有症状”项目中的平均得分。反映受检者自我感觉不佳的项目，其严重程度究竟介于哪个范围。
+
 
 ### logic
 
@@ -106,10 +123,10 @@ User
 | GetUserInfo | 获取个人信息（获取表单） | localhost:8080/user/get_userinfo | get |done |
 | UpdateUserInfo | 提交修改信息（提交表单） | localhost:8080/user/update_userinfo | post |done |
 | --- | --- | --- | --- | --- |
-| CommitPaper_sas | 提交问卷sas | localhost:8080/sas/commit | post |
+| CommitPaper_sas | 提交问卷sas | localhost:8080/sas/commit | post |  done |
 | CommitPaper_scl90 | 提交问卷scl90 | localhost:8080/scl90/commit | post |
 | CommitPaper_dass21 | 提交问卷dass21 | localhost:8080/dass21/commit | post | done |
-| CommitPaper_holander | 提交问卷holander | localhost:8080/holander/commit | post |
+| CommitPaper_novack| 提交问卷novack | localhost:8080/novack/commit | post |
 | --- | --- | --- | --- | --- |
 | list_dass21_history | 查看dass21历史记录 | localhost:8080/dass21/history_list | get |done |
 | list_dass21_user_history | 查看个人的dass21历史记录 | localhost:8080/dass21/history_list/user?userid=1 | get |done |
@@ -122,6 +139,10 @@ User
 | list_scl90_history | 查看scl90历史记录 | localhost:8080/scl90/history_list | get |
 | list_scl90_user_history | 查看个人的scl90历史记录 | localhost:8080/scl90/history_list/user?userid=1 | get |
 | delete_scl90_user_history | 删除个人的某项scl90历史记录 | localhost:8080/scl90/history_list/delete?id=1 | get |
+| --- | --- | --- | --- | --- |
+| list_novack_history | 查看novack历史记录 | localhost:8080/novack/history_list | get |
+| list_novack_user_history | 查看个人的novack历史记录 | localhost:8080/novack/history_list/user?userid=1 | get |
+| delete_novack_user_history | 删除个人的某项novack历史记录 | localhost:8080/novack/history_list/delete?id=1 | get |
 
 
 #### CheckResult Module(user field)

@@ -60,6 +60,8 @@ public class Dass21Controller {
 
     /**
      * 提交当前问卷记录
+     *
+     * 各项分数 = 三个因子总分*2
      * @param request
      * @return
      */
