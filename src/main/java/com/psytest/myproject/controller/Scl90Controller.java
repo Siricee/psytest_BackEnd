@@ -176,10 +176,14 @@ public class Scl90Controller {
 
         int posSymptomCount = 0;
         int negSymptomCount = 0;
+        int posSymptomSumscore = 0;
         for (int i = 1; i <= 90; i++) {
             int value = Integer.parseInt(request.getParameter("answer" + i));
-            posSymptomCount += (i >= 2) ? 1 : 0;
-            negSymptomCount += (i == 1) ? 1 : 0;
+
+            if(value>=2){
+                posSymptomCount+=1;
+                posSymptomSumscore += value;
+            }else negSymptomCount+=1;
         }
 
 
@@ -191,10 +195,10 @@ public class Scl90Controller {
         scl90.setNegSymptomCount(negSymptomCount);
 
         // Positive-Symptom-Average-score
-        if (scl90.getPosSymptomCount() == 0) {
+        if (posSymptomCount == 0) {
             scl90.setPosSymptomAvgscore((float) 0);
         } else {
-            scl90.setPosSymptomAvgscore((float) (scl90.getSumscore() - scl90.getNegSymptomCount() / scl90.getPosSymptomCount()));
+            scl90.setPosSymptomAvgscore((float) (posSymptomSumscore / posSymptomCount));
         }
 
         // single factor

@@ -13,7 +13,5 @@ public class PsytestApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(PsytestApplication.class, args);
-
 	}
-
 }
