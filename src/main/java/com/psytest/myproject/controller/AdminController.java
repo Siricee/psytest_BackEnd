@@ -26,7 +26,7 @@ public class AdminController {
      */
     @PostMapping("/login")
     @ResponseBody
-    public int login(HttpServletRequest request) {
+    public Admin login(HttpServletRequest request) {
         AdminExample adminExample = new AdminExample();
 //        System.out.println(request.getParameter("username"));
 //        System.out.println(request.getParameter("password"));
@@ -35,9 +35,10 @@ public class AdminController {
         adminExampleCriteria.andPasswordEqualTo(request.getParameter("password"));
         List<Admin> result = adminService.selectByExample(adminExample);
         if (!result.isEmpty()) {
-            return 1;
+            //Admin admin = result.get(0);
+            return result.get(0);
         } else {
-            return 0;
+            return null;
         }
     }
 

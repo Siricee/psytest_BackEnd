@@ -20,6 +20,29 @@ public class UserContrller {
     private UserService userService;
 
     /**
+     * POST
+     * 业务主要方法
+     *
+     * @return
+     */
+    @PostMapping("/login")
+    @ResponseBody
+    public User login(HttpServletRequest request) {
+        UserExample userExample = new UserExample();
+//        System.out.println(request.getParameter("username"));
+//        System.out.println(request.getParameter("password"));
+        UserExample.Criteria userExampleCriteria = userExample.createCriteria();
+        userExampleCriteria.andUsernameEqualTo(request.getParameter("username"));
+        userExampleCriteria.andPasswordEqualTo(request.getParameter("password"));
+        List<User> result = userService.selectByExample(userExample);
+        if (!result.isEmpty()) {
+            return result.get(0);
+        } else {
+            return null;
+        }
+    }
+
+    /**
      * 返回所有User记录
      *
      * @param request
@@ -38,7 +61,7 @@ public class UserContrller {
      * @param request
      * @return
      */
-    @RequestMapping("/get_userinfo")
+    @RequestMapping("/info")
     @ResponseBody
     public User selectByPrimaryKey(HttpServletRequest request) {
         Integer id = Integer.parseInt(request.getParameter("id"));
@@ -69,7 +92,7 @@ public class UserContrller {
         UserExample userExample = new UserExample();
         userExample.createCriteria().andUsernameEqualTo(request.getParameter("username"));
         List<User> list = userService.selectByExample(userExample);
-        return list.isEmpty();// 有重名的返回true，没有重名的返回false
+        return list.isEmpty();// 有重名的返回false，没有重名的返回true
     }
 
     @PostMapping("/update_userinfo")

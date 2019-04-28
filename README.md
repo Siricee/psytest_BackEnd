@@ -141,7 +141,8 @@ User
 | Login | 登录（发送数据） | localhost:8080/user/login | post | done |
 | Register | 注册（仅跳转页面,vue路由） | localhost:8080/user/register | get | done |
 | isRepeatedName | 是否重名 | localhost:8080/user/isrepeatname | get/post |  done |
-| GetUserInfo | 获取个人信息（获取表单） | localhost:8080/user/get_userinfo | get |done |
+| GetUserInfo | 获取个人信息（获取表单） | localhost:8080/user/info | get |done |
+| GetUserList | 获取全部人员信息（获取list） | localhost:8080/user/list | get |  done |
 | UpdateUserInfo | 提交修改信息（提交表单） | localhost:8080/user/update_userinfo | post |done |
 | --- | --- | --- | --- | --- |
 | CommitPaper_sas | 提交问卷sas | localhost:8080/sas/commit | post |  done |
