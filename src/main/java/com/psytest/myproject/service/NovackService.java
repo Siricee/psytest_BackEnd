@@ -13,4 +13,6 @@ public interface NovackService {
     int insertSelective(Novack record);
 
     List<Novack> selectByExample(NovackExample example);
+
+    List<Novack> getRecordWithUserinfo();
 }

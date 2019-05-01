@@ -108,4 +108,15 @@ public class NovackController {
 
         return novackService.insertSelective(novack);
     }
+
+    /**
+     *
+     * @param request
+     * @return
+     */
+    @RequestMapping("/history_list_detail")
+    @ResponseBody
+    List<Novack> getRecordWithUserinfo(HttpServletRequest request){
+        return novackService.getRecordWithUserinfo();
+    }
 }

@@ -33,4 +33,9 @@ public class Scl90ServiceImpl implements Scl90Service {
     public List<Scl90> selectByExample(Scl90Example example) {
         return scl90dao.selectByExample(example);
     }
+
+    @Override
+    public List<Scl90> getRecordWithUserinfo() {
+        return scl90dao.getRecordWithUserinfo();
+    }
 }

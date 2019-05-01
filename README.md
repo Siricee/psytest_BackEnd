@@ -152,18 +152,22 @@ User
 | --- | --- | --- | --- | --- |
 | list_dass21_history | 查看dass21历史记录 | localhost:8080/dass21/history_list | get |done |
 | list_dass21_user_history | 查看个人的dass21历史记录 | localhost:8080/dass21/history_list/user?userid=1 | get |done |
+| list_dass21_user_history_withUserData | 查看个人的dass21历史记录，且包含这个人用户信息 | localhost:8080/dass21/history_list_detail | get |done |
 | delete_dass21_user_history | 删除个人的某项dass21历史记录 | localhost:8080/dass21/history_list/delete?id=1 | get |done |
 | --- | --- | --- | --- | --- |
 | list_sas_history | 查看sas历史记录 | localhost:8080/sas/history_list | get |done |
 | list_sas_user_history | 查看个人的sas历史记录 | localhost:8080/sas/history_list/user?userid=1 | get |done |
+| list_sas_user_history_withUserData | 查看个人的sas历史记录且包含这个人用户信息 | localhost:8080/sas/history_list_detail | get |done |
 | delete_sas_user_history | 删除个人的某项sas历史记录 | localhost:8080/sas/history_list/delete?id=1 | get |done |
 | --- | --- | --- | --- | --- |
 | list_scl90_history | 查看scl90历史记录 | localhost:8080/scl90/history_list | get |done |
 | list_scl90_user_history | 查看个人的scl90历史记录 | localhost:8080/scl90/history_list/user?userid=1 | get |done |
+| list_scl90_user_history_withUserData | 查看个人的scl90历史记录且包含这个人用户信息 | localhost:8080/scl90/history_list_detail | get |done |
 | delete_scl90_user_history | 删除个人的某项scl90历史记录 | localhost:8080/scl90/history_list/delete?id=1 | get |done |
 | --- | --- | --- | --- | --- |
 | list_novack_history | 查看novack历史记录 | localhost:8080/novack/history_list | get |done |
 | list_novack_user_history | 查看个人的novack历史记录 | localhost:8080/novack/history_list/user?userid=1 | get |done |
+| list_novack_user_history_withUserData| 查看个人的novack历史记录且包含这个人用户信息 | localhost:8080/novack/history_list_detail | get |done |
 | delete_novack_user_history | 删除个人的某项novack历史记录 | localhost:8080/novack/history_list/delete?id=1 | get |done |
 
 

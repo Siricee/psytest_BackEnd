@@ -10,4 +10,5 @@ public interface SasService {
     List<Sas> selectByExample(SasExample example);
     int insertSelective(Sas record);
     int deleteByPrimaryKey(Integer id);
+    List<Sas> getRecordWithUserinfo();
 }

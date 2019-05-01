@@ -225,5 +225,10 @@ public class Scl90Controller {
         return scl90Service.insertSelective(scl90);
     }
 
+    @RequestMapping("/history_list_detail")
+    @ResponseBody
+    List<Scl90> getRecordWithUserinfo(HttpServletRequest request){
+        return scl90Service.getRecordWithUserinfo();
+    }
 
 }

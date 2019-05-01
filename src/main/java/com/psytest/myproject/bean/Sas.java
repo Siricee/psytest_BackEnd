@@ -242,4 +242,14 @@ public class Sas {
     public void setSum(Integer sum) {
         this.sum = sum;
     }
+
+    private User user;
+
+    public User getUser() {
+        return user;
+    }
+
+    public void setUser(User user) {
+        this.user = user;
+    }
 }

@@ -3,7 +3,8 @@ package com.psytest.myproject.dao;
 import com.psytest.myproject.bean.Dass21;
 import com.psytest.myproject.bean.Dass21Example;
 import java.util.List;
-import org.apache.ibatis.annotations.Param;
+
+import org.apache.ibatis.annotations.*;
 
 public interface Dass21Mapper {
     int countByExample(Dass21Example example);
@@ -27,4 +28,8 @@ public interface Dass21Mapper {
     int updateByPrimaryKeySelective(Dass21 record);
 
     int updateByPrimaryKey(Dass21 record);
+
+    @Select("SELECT * FROM dass21")
+    @Results({@Result(property = "user",column = "userid",one = @One(select="com.psytest.myproject.dao.UserMapper.selectByPrimaryKey"))})
+    List<Dass21> getRecordWithUserinfo();
 }

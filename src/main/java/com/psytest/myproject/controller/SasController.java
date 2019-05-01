@@ -101,4 +101,10 @@ public class SasController {
 
         return sasService.insertSelective(sas);
     }
+
+    @RequestMapping("/history_list_detail")
+    @ResponseBody
+    List<Sas> getRecordWithUserinfo(HttpServletRequest request){
+        return sasService.getRecordWithUserinfo();
+    }
 }

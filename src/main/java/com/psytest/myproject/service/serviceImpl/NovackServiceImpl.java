@@ -33,4 +33,9 @@ public class NovackServiceImpl implements NovackService {
     public List<Novack> selectByExample(NovackExample example) {
         return novackdao.selectByExample(example);
     }
+
+    @Override
+    public List<Novack> getRecordWithUserinfo() {
+        return novackdao.getRecordWithUserinfo();
+    }
 }

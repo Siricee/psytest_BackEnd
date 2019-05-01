@@ -129,4 +129,10 @@ public class Dass21Controller {
         return dass21Service.insertSelective(dass21);
     }
 
+
+    @RequestMapping("/history_list_detail")
+    @ResponseBody
+    List<Dass21> getRecordWithUserinfo(HttpServletRequest request){
+        return dass21Service.getRecordWithUserinfo();
+    }
 }

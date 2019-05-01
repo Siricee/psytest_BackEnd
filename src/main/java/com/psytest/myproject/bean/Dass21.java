@@ -272,4 +272,14 @@ public class Dass21 {
     public void setStress(Integer stress) {
         this.stress = stress;
     }
+
+    private User user;
+
+    public User getUser() {
+        return user;
+    }
+
+    public void setUser(User user) {
+        this.user = user;
+    }
 }

@@ -3,7 +3,8 @@ package com.psytest.myproject.dao;
 import com.psytest.myproject.bean.Scl90;
 import com.psytest.myproject.bean.Scl90Example;
 import java.util.List;
-import org.apache.ibatis.annotations.Param;
+
+import org.apache.ibatis.annotations.*;
 
 public interface Scl90Mapper {
     int countByExample(Scl90Example example);
@@ -27,4 +28,8 @@ public interface Scl90Mapper {
     int updateByPrimaryKeySelective(Scl90 record);
 
     int updateByPrimaryKey(Scl90 record);
+
+    @Select("SELECT * FROM scl90")
+    @Results({@Result(property = "user",column = "userid",one = @One(select="com.psytest.myproject.dao.UserMapper.selectByPrimaryKey"))})
+    List<Scl90> getRecordWithUserinfo();
 }

@@ -13,4 +13,6 @@ public interface Scl90Service {
     int insertSelective(Scl90 record);
 
     List<Scl90> selectByExample(Scl90Example example);
+
+    List<Scl90> getRecordWithUserinfo();
 }

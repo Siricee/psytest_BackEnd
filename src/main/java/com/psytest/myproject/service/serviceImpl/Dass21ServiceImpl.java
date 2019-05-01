@@ -32,4 +32,9 @@ public class Dass21ServiceImpl implements Dass21Service {
     public int deleteByPrimaryKey(Integer id) {
         return Dass21dao.deleteByPrimaryKey(id);
     }
+
+    @Override
+    public List<Dass21> getRecordWithUserinfo() {
+        return Dass21dao.getRecordWithUserinfo();
+    }
 }

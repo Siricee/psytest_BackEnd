@@ -3,7 +3,8 @@ package com.psytest.myproject.dao;
 import com.psytest.myproject.bean.Sas;
 import com.psytest.myproject.bean.SasExample;
 import java.util.List;
-import org.apache.ibatis.annotations.Param;
+
+import org.apache.ibatis.annotations.*;
 
 public interface SasMapper {
     int countByExample(SasExample example);
@@ -27,4 +28,8 @@ public interface SasMapper {
     int updateByPrimaryKeySelective(Sas record);
 
     int updateByPrimaryKey(Sas record);
+
+    @Select("SELECT * FROM sas")
+    @Results({@Result(property = "user",column = "userid",one = @One(select="com.psytest.myproject.dao.UserMapper.selectByPrimaryKey"))})
+    List<Sas> getRecordWithUserinfo();
 }

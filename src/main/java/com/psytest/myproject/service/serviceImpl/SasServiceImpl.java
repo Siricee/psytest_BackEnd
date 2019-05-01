@@ -33,4 +33,9 @@ public class SasServiceImpl implements SasService {
     public int deleteByPrimaryKey(Integer id) {
         return sasdao.deleteByPrimaryKey(id);
     }
+
+    @Override
+    public List<Sas> getRecordWithUserinfo() {
+        return sasdao.getRecordWithUserinfo();
+    }
 }
