@@ -65,7 +65,7 @@ public class Scl90Controller {
 
     /**
      * 提交当前问卷记录
-     * <p>
+     *
      * 总分 = 标准分（求和）*1.25 取整
      *
      * @param request

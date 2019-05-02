@@ -30,6 +30,6 @@ public interface Scl90Mapper {
     int updateByPrimaryKey(Scl90 record);
 
     @Select("SELECT * FROM scl90")
-    @Results({@Result(property = "user",column = "userid",one = @One(select="com.psytest.myproject.dao.UserMapper.selectByPrimaryKey"))})
+    @Results({@Result(id=true,property = "user",column = "userid",one = @One(select="com.psytest.myproject.dao.UserMapper.selectByPrimaryKey"))})
     List<Scl90> getRecordWithUserinfo();
 }
