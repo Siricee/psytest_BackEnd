@@ -28,6 +28,7 @@ public class UserContrller {
     @PostMapping("/login")
     @ResponseBody
     public User login(HttpServletRequest request) {
+        System.out.println("received request!");
         UserExample userExample = new UserExample();
 //        System.out.println(request.getParameter("username"));
 //        System.out.println(request.getParameter("password"));

@@ -27,6 +27,7 @@ public class AdminController {
     @PostMapping("/login")
     @ResponseBody
     public Admin login(HttpServletRequest request) {
+        System.out.println("received requset!");
         AdminExample adminExample = new AdminExample();
 //        System.out.println(request.getParameter("username"));
 //        System.out.println(request.getParameter("password"));
